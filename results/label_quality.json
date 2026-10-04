@@ -1,0 +1,19 @@
+{
+  "llm_vs_human_n": 97,
+  "llm_vs_human_accuracy": 0.763,
+  "llm_vs_human_kappa": 0.643,
+  "llm_precision_per_class": {
+    "0": 0.767,
+    "1": 0.706,
+    "2": 0.818
+  },
+  "corrected_by_human": 26,
+  "total_labelled": 1979,
+  "train": 1583,
+  "test": 396,
+  "class_share": {
+    "neutral/positive": 0.56,
+    "negative attitude": 0.369,
+    "derogatory": 0.071
+  }
+}
