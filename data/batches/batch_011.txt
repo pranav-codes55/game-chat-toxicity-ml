@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+1001: retards are always lucky )
+1002: got bait
+1003: premade bot is bad
+1004: cant you fucking block that q
+1005: --- dmg by tibbers xD
+1006: especially when u win mid that hard
+1007: lemme recall
+1008: ENTREN EN UNA
+1009: chase cait when wukong kill all ^^
+1010: why try hard :(
+1011: and thats why u need so much dmg
+1012: phone sec
+1013: he dont have smite
+1014: lol easiest win ever
+1015: you didnt wait
+1016: did this zeus dc then toggle maphacks because ever since he came back he doesnt suck as much shit as normalk
+1017: we're behind, and i'
+1018: come on guys dont flame <3
+1019: chrono did not do anything
+1020: no jungler cuz of jax and arhi
+1021: a samnoi net ?:D
+1022: WHO AM I
+1023: report zed please ty
+1024: we got idiot team mate
+1025: i won dat game
+1026: now pudge shit player
+1027: mirana and wk in ur team
+1028: pro players
+1029: assisting enemy team thats called
+1030: ez ivo mid
+1031: stop going in you damn idiot
+1032: a dota wtf
+1033: report kassadin
+1034: XD TRASH TEAM
+1035: so weaver is the new shit meta on ranked ?
+1036: gg sur 20 this bot so bad
+1037: thx to voker
+1038: i'd say 50%
+1039: im not porting into 5 guys
+1040: fuck u all btw
+1041: Shut up, fat cunt.
+1042: I'm dead 3 time
+1043: report her flame
+1044: then go quit if you cant
+1045: i am gonna send you rockets clock
+1046: like u are fucking retarded
+1047: pls report him for abuse
+1048: # stupid
+1049: stay in fountain :)
+1050: cancer community
+1051: elise thanks for the lose
+1052: eZ BOT?
+1053: Bg, wp. Please report nidalee and brand for trolling and flaming during all the game
+1054: u fkn idiots
+1055: focus on tusk
+1056: ginger dog cant buy internet it seems
+1057: he is a Mother of Dragons :)
+1058: she is dying of caancer
+1059: add toi nhe
+1060: did u buy that arcana?
+1061: says the one that ks me
+1062: wasted an year
+1063: come back kill me
+1064: caith, okey bot?
+1065: had so fucking enough of this jugg carrys and teir friends
+1066: exactly blue
+1067: Shit fucks
+1068: the dog is keep talking
+1069: how would YOU know?
+1070: you can only kill me that why u target me
+1071: didnt realize i was gonna be teamed with a bunch of noobs
+1072: stop ks? is teamwork -.-
+1073: noc noc
+1074: if they are 4 bot
+1075: thought it was over sf?
+1076: but i have toi say
+1077: yeah u are so pro :)
+1078: ni mierda has hecho ctm
+1079: I want a good dota game
+1080: nice flash nida
+1081: report jax hacking
+1082: fucking idiots team
+1083: uuh thx :D
+1084: lvl 11, and?
+1085: feed = report
+1086: lol bugsplatted 3 times ..
+1087: GG EZ PICKS
+1088: and you dont
+1089: nid
+1090: ¨I DIDNt
+1091: report STOMR TY
+1092: very sry ım noooob
+1093: did youy see amazing ulti
+1094: i dont have work for 4 days
+1095: nice game valve
+1096: lucian so fucking retarded
+1097: kk get ready to ball me
+1098: dota is jsut dumb man
+1099: please calm
+1100: RIVEN WITH

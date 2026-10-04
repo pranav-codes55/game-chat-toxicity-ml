@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+1401: cz i dont want to win with a retard like u
+1402: I CAN REPORT IO FIRST
+1403: bright and happy
+1404: She had surprise me, i dont think saw her
+1405: ez take the blue
+1406: yeah i would like blue.
+1407: get rekt son
+1408: fuck me daddy
+1409: FUCKIGN STOLE KILL
+1410: LOOK FUCKING CHAT
+1411: shitting in a hole in the ground
+1412: guys baron and mid?
+1413: sa7a
+1414: HE IS SU FUCKING RETARDED
+1415: be respectful you piece of shit.
+1416: most shittiest team
+1417: rEADY G
+1418: eve you are 0-4-4
+1419: gg command me EZ
+1420: testing if it works
+1421: call me trump
+1422: op ganks
+1423: use ult fot 1 g
+1424: best feeder award
+1425: i was sfae
+1426: how's it going
+1427: freaking perfect example of an idiot
+1428: come the fuck on
+1429: K lets red
+1430: REPORT ZA BUST
+1431: sure stfu i am with trolls in team
+1432: brands ult kills us
+1433: since zyra lag
+1434: right at the end
+1435: dont hit me now
+1436: Ulti zhonya
+1437: focyus the same person
+1438: report this viper and sniper
+1439: need 2 cs for fucking LW
+1440: lol ez storm
+1441: loll i stealed the penta sry
+1442: STOP PSH UR FUCKIN LANE AND DIE
+1443: hello are there axe?
+1444: 58 inch dick in your ass
+1445: is style
+1446: ez gg
+1447: from your mother ass
+1448: WE CÄN 3v5
+1449: baron soul lol :D
+1450: feeders end
+1451: do u guys kno de wei?
+1452: fck it i suck
+1453: FCK MID NOOB
+1454: wt ?
+1455: can i play some real dota someday pls
+1456: pudge Owned This game
+1457: and after if they focus you
+1458: am more lol
+1459: shit team magnus
+1460: we lost it on pick fase
+1461: i hope u die of cancer
+1462: THE RAGE MAKE ME HAPPY
+1463: one hit?>
+1464: good now i think
+1465: and still u suck
+1466: i hope this dog accept me
+1467: more far
+1468: did u see the thunders on screen?
+1469: u lvl 4?
+1470: stupid shaco
+1471: gotta flame
+1472: yes i do but you rape us atm
+1473: so much shit
+1474: yeah ur dmg was shit before
+1475: its a nice champ
+1476: fuck you jarvan
+1477: I FINALLY GOT MY SHITTY CHALLEGE DONE
+1478: so we can maybe come back
+1479: with this fucking cancer handicap mothrfuker
+1480: hook win game
+1481: we need 2 wait for galio
+1482: try to farm under your turret
+1483: gg wp for going on zac
+1484: u mad bronzeboy?
+1485: next time ill get that inihb
+1486: no fuckin reaction
+1487: dat luck rengar
+1488: didnt see ez ulti
+1489: word game
+1490: eh ?
+1491: respeita o bi
+1492: gg j4
+1493: report karma noob troll fuckface nigger
+1494: mega retards
+1495: just cuz arte3ezy doesnt build it
+1496: Oh, then it was blitz ?
+1497: what do you want es
+1498: hard to gank him
+1499: too ez bro.
+1500: yy reported..

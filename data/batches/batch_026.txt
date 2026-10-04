@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+2501: ill fuck pa
+2502: fuckin volibear
+2503: lux has ulti again
+2504: report ck necro and clock
+2505: SAVE?
+2506: 8 mins right
+2507: to value kill over win
+2508: why me tho
+2509: We win nothing for now.
+2510: ma ghetto gonna fuck u
+2511: if i was a pimp, jinx wud be my hoe
+2512: thats y he didnt chrone me
+2513: its his cmo
+2514: Coz you guys
+2515: i just want to take IP not a 50
+2516: nub not aggressive
+2517: only feeder
+2518: not even won
+2519: AND PLEASE REPORT MY CARRY
+2520: worse shit
+2521: i will no shut up
+2522: ez crit ez bash
+2523: but we could have won
+2524: ESPECALLY THIS RETARD ON PA
+2525: ive been bearin over with you
+2526: and fuck me for your faults
+2527: im retarded?
+2528: from fucking u
+2529: DEAL DAMAGE NOOB
+2530: mal watch my stats with zed on lolking -.- just early j4 babysitt fucked me
+2531: thats noob if u die cuz of that when u are squishy isnt it?
+2532: when you have fucking teammates
+2533: welp I tried
+2534: gg report my team no cour no wards
+2535: i mean if you want to go 1 for 4 i'll take that trade
+2536: guys report ryze and rammus pls
+2537: nice ^.^
+2538: all rep this shit
+2539: you suck doom
+2540: fucking son of a bitch blood
+2541: just one fucking thing..
+2542: im retarded
+2543: why worst jungler in rnaked
+2544: invoker sucked my dick all game
+2545: --- ob
+2546: udyr countered himself
+2547: die shit mk
+2548: what are u crazy
+2549: but u miss
+2550: I'm going full tank and AP
+2551: anyone else lag or just me?
+2552: ur gay friend
+2553: i only pinged it --- times
+2554: so my friend
+2555: nigga whut hahaha
+2556: lee we need tank
+2557: and dont talk
+2558: spec is bad anyways doesnt matter
+2559: omg bot lane feeders
+2560: BEAST MODE ON
+2561: NOW YOUR ULTS ON COOLDOWN
+2562: i say u fuckk
+2563: what a gg
+2564: ...you are noob
+2565: fuck you noooooooooooooobs
+2566: end pls ggwp report top and jungle thanks
+2567: not the best idea
+2568: omg one hit fuck
+2569: tjey made a rework of rammus?
+2570: fuck nos
+2571: pl shut up you can only escape ;)
+2572: ok i will focus kat
+2573: but this vayne is terrible
+2574: i am russian and meepo
+2575: report this fish always flaming omg
+2576: annie go defensive..
+2577: u still get lp right
+2578: y;___; report idiot lux ... ;____; you got fed by a total noob who raqe quit get over it kid
+2579: fight me en
+2580: idiots focus kha
+2581: and let's break singed's win ;)
+2582: Dis team pls
+2583: he fucked my jungle
+2584: so cool i will stay bronze all saison 3 cause troll ! thank you
+2585: techies is having connection issues
+2586: wh sould i buy armor
+2587: because U dont buy magic resist idiot
+2588: pls report thatidiots
+2589: is imune to cc whith his ult
+2590: i cant blieve it
+2591: fcking noob tf
+2592: I fucking hate indogs
+2593: gg wp ez bb
+2594: I won't stop you
+2595: fuck this tema
+2596: wanirkck is mi firend retard
+2597: report riki for better future
+2598: carry u
+2599: NIGGA WHAT
+2600: UNDERSTAND THIS

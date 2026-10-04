@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+1801: everyone thinks ur shit
+1802: yeah repot me xD
+1803: i fucking kill you
+1804: you sir, are really mad.
+1805: report dat team ty
+1806: not flamde by both sides
+1807: sona aswell
+1808: they fucking
+1809: come on my back, daddy?
+1810: pudge have a fucking hook
+1811: easiest pl of my life
+1812: i have noob alies
+1813: YEP IT WAS EZZ MID VS 2
+1814: omg shut up noob
+1815: look like i dont have to gank -.-
+1816: you are just noob for champion noob :) <3
+1817: win and storm 2 mother fuckers
+1818: seju lasthit only pls next time ^^
+1819: blöder bastard wir können das gerne in nem 1 vs 1 klären du bronze depp
+1820: 2 smite vs no smite
+1821: u mean this server?
+1822: where are the bombs
+1823: never gonna give up
+1824: focus fizz and wu pls
+1825: deserve to win as AM picker tbh <3
+1826: u so cocky
+1827: and ? you think we win game?rofl
+1828: shut up plzx
+1829: seriously fck this ult
+1830: 2 minutes
+1831: so fuckking retard
+1832: gj ignite :)
+1833: Ez pusg bot
+1834: can u ff?
+1835: i need to sp 3k?
+1836: we already lose the game
+1837: dont push lane!!
+1838: even 1vs2
+1839: cait got caught
+1840: he is winning
+1841: buena akali
+1842: am retard
+1843: fucking ls shit
+1844: Report luna ty
+1845: ??????we
+1846: end mid jajaj ecks dee
+1847: nidalee tank ftw
+1848: comment j ai fait 1 kill ?
+1849: my red is stolen cause nida dont gves a fuck
+1850: i dont fucking know how to top
+1851: its a pa show
+1852: where the fuck is snow
+1853: i need farmn
+1854: u got some issues kiddo
+1855: play safe dude, he counter you on early^^
+1856: PL horrivel diz ez game
+1857: thats what ur mom said
+1858: ggwp report bs
+1859: my dog fuck ur mommy everyday
+1860: im crying , im 0 2
+1861: please wait.
+1862: y i can
+1863: yung AM ba
+1864: up for botgame
+1865: dont listen to that mongol
+1866: fuck this mirana
+1867: fck this pping lagg
+1868: just 1 last fight
+1869: i just wanna go into a corner and cry my lightnings away
+1870: HOW I CAN GIVE HIM REPORT?
+1871: pretty darn good
+1872: help report void
+1873: tear
+1874: 7.07 wake up
+1875: voli bbs top
+1876: how were they able to tank so many turret shots ;D
+1877: tu puta
+1878: rat ?
+1879: say yes who will report me
+1880: hermie is her name
+1881: Really nigga?
+1882: désoler c'est un peu trop demander :)
+1883: let's check the networth graph
+1884: is there a point to these predictions
+1885: well.... u run into 3 alone and we're in the base
+1886: too long shit
+1887: no what you are doing
+1888: so i hit something
+1889: Not rdy ? :D
+1890: :LUL
+1891: he said he does not like adc
+1892: said trash clinz
+1893: que tal mi suport
+1894: why are 3ks so fucking bad at dota
+1895: stop trash talking
+1896: you were sleeping
+1897: too ez man
+1898: its puting you with archon means u are shit and they know ur skill
+1899: teemo why 18 armor..
+1900: your are fucking retarded

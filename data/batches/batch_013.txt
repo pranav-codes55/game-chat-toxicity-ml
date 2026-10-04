@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+1201: 90 seconds enough to kill shitlord
+1202: cassio stfu
+1203: iam ez
+1204: ss Volibear
+1205: son of a whore cm
+1206: ez dazzle mid
+1207: that is how it is supposed to go
+1208: 0 damage tard ashe
+1209: elise go bot omg
+1210: this fcking deco
+1211: all drakes and barons for your team
+1212: i can't believe
+1213: i'm just toying with all of you
+1214: j[ t,fnm
+1215: outplayed :P
+1216: not our chiken bitch
+1217: ty god ididnt support these retard shit
+1218: report feeder thk
+1219: skew me bitch
+1220: at least he is better than our tinker
+1221: amumu rage noob 13/6 sure i rage xD
+1222: and pass
+1223: i only can do it 1 time
+1224: i didnt even ask you lol
+1225: fuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu that minions
+1226: verpiss dich mal
+1227: im pretty useless right now
+1228: go back noob
+1229: she s gut enough
+1230: you have no intell?
+1231: is this a fucking joke?
+1232: je v xp de la merde
+1233: no bopun ty
+1234: i acnt farm
+1235: JSUYT GO END
+1236: 0 dmg
+1237: easy counter first pick top ^^
+1238: and rengar for feeding
+1239: u didnt select bot before me
+1240: talk shit plz
+1241: simon er du ikke mid?
+1242: waiting for void to fucking chrono
+1243: and play your line
+1244: please report Gragas, he hopes "my mom will get cancer and dies*.
+1245: report me :)
+1246: that is actually a pro tip, remember that shit
+1247: TECHIES intentional feeding..
+1248: ez u know that nobody likes you?
+1249: tf when baited by my own team
+1250: she flame i don't know why
+1251: let 1 min
+1252: we need to cover the lanes
+1253: voli hp?
+1254: lose *
+1255: no cry man
+1256: kha first no ?
+1257: HOW FARM
+1258: nasus is nasus
+1259: 0 help all game
+1260: the greed of skarner cost the game
+1261: we have no burst
+1262: Why so ez? hahahaha
+1263: well nice -.-
+1264: okay im noob
+1265: u just farm
+1266: it's fine dude let's just play DiscordRPG
+1267: w8 i go for drink
+1268: om cvarus u lost bot so fck hard be quiet
+1269: those traps!
+1270: good boy kids
+1271: .1 janna
+1272: idc if he is g 5 or not hes a fking kid nothing else
+1273: care yorick
+1274: lol rumble xD
+1275: we play 3 vs5
+1276: Ok dude who fail every ulti?
+1277: i hate this mother bitch invoker son of the bitch
+1278: u re not chuck norris bro!
+1279: vi why are you bot? ><
+1280: you guys are pathetic
+1281: we can still come back
+1282: report me because i don't main support
+1283: now what can or invoker do again?
+1284: a girl
+1285: ez tinker rage
+1286: dont call report form us
+1287: i want the m to lose
+1288: lets report him after this
+1289: que basura eres invoker xd
+1290: because i wanna push it all in:)
+1291: why you so mad bro>
+1292: nami reported
+1293: w8 pl
+1294: tf shut the fuckk up and play little kid
+1295: rengar is noob
+1296: cait pelase unisntall full life no fight
+1297: Crap, no mana.
+1298: stfu noob udyr
+1299: come 1 vs 1 if you have ball
+1300: voker is free kill anyway

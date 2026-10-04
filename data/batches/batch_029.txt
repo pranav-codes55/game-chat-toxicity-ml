@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+2801: i cant carry ysless retards
+2802: zed zed zed
+2803: fuck ur sister
+2804: LOL WELL COME VOID
+2805: no, no hence
+2806: ezm id for me
+2807: THEY ARE GETTING FUCKED IN BASE
+2808: noob ck 33 mins no item wahahahahah only armlet ahahaha
+2809: but when u get in archon lvl
+2810: ahahha SION ahaha
+2811: fully cancer mates
+2812: is ur final
+2813: clip that shit
+2814: *yes, *you
+2815: sad thing is...you noobs still attack
+2816: not the team
+2817: a Blitz focuses nobody
+2818: `gg
+2819: lol noob sup~ look at ur fuckking build
+2820: Place wards all the game
+2821: can you leave invoekr alone?
+2822: nice leı
+2823: before u silenced
+2824: sad ez
+2825: never run help
+2826: you guys are so stupid
+2827: primer pick am
+2828: en ainakaan osaa enään -.-
+2829: dont let gp free farm
+2830: and that flame with op champs.. gg
+2831: ez 1vs1 by baron you loose...
+2832: so it will be fast reset
+2833: i need just one more win to go up a division but nooooooo...... ofc is it a noob team and i lost again.....
+2834: wp retards
+2835: ye i say top
+2836: ss for jungle sjfapdshfoağsdhf
+2837: so enjoy report and loose
+2838: aww ok i report =]
+2839: why the fuck you didnt hit the minions
+2840: tinker just idiot
+2841: jees i can
+2842: really sorry for your -25 mmr
+2843: bye winning
+2844: no wards idiot
+2845: easy split push nofarm AM
+2846: 1 Q 70 % of hp pls goddamit go play barbie stop use op champs
+2847: 2/4 stfu
+2848: ne mogu ja
+2849: and go afk :D
+2850: Or else you were gonna lose when you came back retard
+2851: i will just wait
+2852: fucking tryhard kassa
+2853: is ez
+2854: ck most OP shit hero in existence
+2855: we no tank its gg
+2856: no te entiendo ni un carajo :u
+2857: and we stand 1 v 1 after
+2858: cry more? babyrage
+2859: resume for us pause for u guys
+2860: jax gank?!
+2861: couldnt cancel the ult
+2862: y so ezezeze
+2863: slark is base racing u guys
+2864: 2 kills varus now
+2865: kid go sleep
+2866: OMG FINISH IT
+2867: vi help bot
+2868: fucking noob mid report pls
+2869: and ks miss
+2870: I'l smite it
+2871: go fucking def
+2872: cmon dude. don't cry. this is a normal match. people play this to enjoy.
+2873: Dang fuck the miss chance
+2874: u`ll be reportred
+2875: ez #
+2876: whats bad?
+2877: |great pl we have
+2878: has never
+2879: We need Jug... :P
+2880: Like, gg gg gg gg all the time
+2881: heal den renekton ruhig weiter mit deinen attacks
+2882: u got next one ?
+2883: and all caps raging
+2884: y prepare to die
+2885: die die die mother fucker
+2886: yeah lvl 6 now
+2887: report pango thanks
+2888: top turret is weakend on lef
+2889: go fuck yourself alche
+2890: ye rly who needs a map
+2891: u dont hit nothing
+2892: its great!!
+2893: first time graves
+2894: riki is useless
+2895: i had forcestaff
+2896: u died 3 times trynda, shut up
+2897: not my fault veig
+2898: grab the lantern plz
+2899: useless pies of shit
+2900: wtf kid

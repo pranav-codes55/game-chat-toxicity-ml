@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+2901: u dont even end it
+2902: You've ganked her like every 60 seconds
+2903: i go bot a lil
+2904: i dont know why they dont surrend
+2905: for 1 fucking time
+2906: cause im not
+2907: he is awful
+2908: WAIT FUCKING
+2909: i ping 40 times
+2910: cuz u guys suck
+2911: REPORT LANCER PLS
+2912: rly this noob ez penta
+2913: trash fuck
+2914: no i called you a cunt
+2915: mny carry is shit but game is fun anyways
+2916: Ez divine :P
+2917: go roaming
+2918: at the worst fuckin moment
+2919: pinged like 10 times yout inhib, nobody follows, and this tf wants to report me
+2920: u gonna get banned huskar
+2921: we have the best adc
+2922: trash antimgae ever
+2923: It'snot my fault
+2924: report my trilane bot
+2925: for all i care i'l lreport this 3k pudge
+2926: sec we have afk maybe dc
+2927: fuck that bugshit
+2928: 1 hp is for suckers
+2929: 2 seconds later
+2930: shyvana afk?
+2931: report this shit void
+2932: i gut hav dopel kill and still liv
+2933: aa not working ez?
+2934: wtf fking teemo retard scrub
+2935: rammus being useless as shit mr and not armor
+2936: gg rep pangolier
+2937: Funny рофлы
+2938: I love phu
+2939: just use q ez
+2940: u can fuck u
+2941: for zac fck noob troling
+2942: ok '-'
+2943: this pudge lol
+2944: i was only hope
+2945: ur mid fucked our lane
+2946: free gold.-
+2947: omg its obvious noob
+2948: justin du bist bot
+2949: first big mouth then nooblike playing
+2950: ez report pango and rubick
+2951: lol you guys got a feeder
+2952: i fucking joke
+2953: jax we need you mid now..come plz
+2954: are u for real?
+2955: 22 min 0 ward
+2956: no1 ganked us for the first 7 mins
+2957: i really wan to report ya storm
+2958: warwick du bist ein noob
+2959: bot lane -,-
+2960: let ur mother die
+2961: withotu look map
+2962: Gj FF
+2963: invade ok?
+2964: is usless
+2965: while sniper gets to solo bot vs 2
+2966: rpeort mother fucker sf and drow
+2967: YOU FUCKING TWAT
+2968: report teemo :P
+2969: im behind and get no blue
+2970: who is useful
+2971: listen to team pelase
+2972: lux suck me cock noob -.-"""
+2973: dont report pls
+2974: gg bot izi
+2975: press R omg
+2976: taht's what happens when u start taunting
+2977: ez take our blu
+2978: bye bye preddcion
+2979: i dont care bitch
+2980: i stop with playing
+2981: gonna give me a good midlaner not troll
+2982: renekton is gonna rape you lee
+2983: cño el lorron de bot es español
+2984: his blue rapes me
+2985: More kill me
+2986: he wants to farm
+2987: en off
+2988: Idiots come bot now
+2989: i can kill eve
+2990: i think ur report is worthless
+2991: dont know Engage
+2992: i got caught by amumu
+2993: fucking noob medusa
+2994: i was solo vs 2 stun
+2995: he doesn't do it on prupos
+2996: HE INSISTIING ON FOKEN MID
+2997: learn to whore
+2998: 1 top and 3 bot?
+2999: AHHAHA UDYR SUYCk
+3000: why surrender?

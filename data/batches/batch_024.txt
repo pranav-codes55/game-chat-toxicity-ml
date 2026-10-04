@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+2301: i saif --- times no solo ...
+2302: vi can you gank bot
+2303: pudge and bs are retarded
+2304: give me please
+2305: when you have a riki
+2306: u waste it
+2307: im 2 late
+2308: lets do it guys
+2309: jsut blame the jugnler
+2310: or my support leaving my lane against an ursa lol
+2311: atleast trash like u will lose
+2312: he is feded
+2313: miestras su base
+2314: ur acting like a fucking 7 year old kid
+2315: how long shoud we wait, our jungler doesn't help us
+2316: plis report
+2317: such a fucking retard
+2318: teemo always bot
+2319: n joga nd este gajo
+2320: "can't bot or jung"
+2321: UDYR LANE BUSH
+2322: HGe feed ? :D
+2323: 2017 still retards 1k eveery game
+2324: like a fucking 1k
+2325: Nocturne was lucky :D
+2326: did u chek it ?
+2327: u have a small dick
+2328: how couldnt you take turret
+2329: fuck the dinner
+2330: this is how to play turbo
+2331: im not afk lol
+2332: are you tunisian ?
+2333: i cant do shit when every lane looses
+2334: You would had gotten shat on too
+2335: luck is for fags
+2336: that was fucking braindead
+2337: mundo :(
+2338: this fire chicken is good
+2339: with draven^^
+2340: udyr fed we lost
+2341: lol free?
+2342: dont know how to play your hero am
+2343: ofc you are
+2344: i will delete this fckin game
+2345: ioh god hold on
+2346: go to bed
+2347: pfffff fuck this is not funny
+2348: supp is better
+2349: i re over
+2350: im noob meepo
+2351: u are toe one to blame
+2352: u don't have the feeding morg on ur lane
+2353: and my team manages to just shit talk me
+2354: be safe at least a bit
+2355: fuck face
+2356: report fiddle ty
+2357: i try def
+2358: nice legs faggot
+2359: were she coem from invi irelia
+2360: he came
+2361: fkin zyra carrying
+2362: not by fizz
+2363: 1 st time
+2364: ez mid axa
+2365: 4 top gg! inibitor down
+2366: u dad is dead
+2367: twitch harass them
+2368: cuz they were too behind
+2369: nice ez
+2370: supp op
+2371: When will i loose
+2372: reported , hf
+2373: take blue ahri
+2374: has 93 games
+2375: kill them recall
+2376: it's great i dunk the whole gyro into the chili
+2377: ez ahahaha
+2378: aun encima español normal ke haga esta mierda xd
+2379: totally stupid
+2380: Ez feed for u
+2381: do not miss with kings son
+2382: bh wheres ur items
+2383: E UM macaco
+2384: stay afk he dont reconnect
+2385: its been a pleaasure
+2386: im not the carry
+2387: omfg leona buy a fucking locket
+2388: i said spanish idiots once
+2389: that snare op
+2390: can u report both darius and leblanc ty
+2391: on this shit server
+2392: and i duo it with vi
+2393: is he even cming back
+2394: malo hard carry
+2395: i just dont
+2396: man this game woulda been so ez
+2397: Wenn ihr provizier
+2398: no itme for bullshit. get your shit together
+2399: how was i?
+2400: sorry i farm im late

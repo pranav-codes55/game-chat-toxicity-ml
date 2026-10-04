@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+1: its your first tie idiot
+2: ori you reported and now i can say ss? gj
+3: u are so angry becouse i got my blue?
+4: fucking ritika man
+5: fucking mid player
+6: sorry if i play so bad
+7: fucking mid wanna be
+8: i didnt wanna go
+9: mid was abundant
+10: glhf guys!
+11: prefer try to be toxic
+12: can he fucking pick please
+13: you start flame me
+14: deine mutter was lw life
+15: this oops reveal hes feeding
+16: believe it or not, i would not have been such a dick
+17: £you shit am
+18: it;s not all mid xD
+19: nice mf
+20: now say you are not a retard xin
+21: WTF GG
+22: why the hell u retard didnt help?
+23: Warwich u beast :D
+24: leona... for what are you gonna report me?
+25: you are soo good russian
+26: you so feel happy pudge ?
+27: you make 2 / 20 fucking noob
+28: you see, you dident help kassa in lane
+29: idiot... ^^
+30: we win 2vs 4
+31: Vi shut the fck up please
+32: ww no mana
+33: nowhere to run :D
+34: what the fuck is doing zed
+35: davis geh back
+36: 4 min off
+37: I guess you're 12
+38: so,why don't you just shut up?
+39: surrender = end faster = riven wll ruin an other game in 30 sec
+40: 37 min
+41: dude meepo is a fucking troll
+42: omg fuck teh baron now
+43: eat more mcdonalds dude
+44: sec pls fps
+45: np jump on cd
+46: no just report blitz
+47: i Froze it moron
+48: Her asshole
+49: fuckin bitch cait
+50: ez dog russıans
+51: go together guys
+52: re^^
+53: rEPORT CK PLS
+54: idc about next game
+55: plz end fast game and gank bot a lot
+56: np j4 for your smite
+57: all in bot nasus
+58: report life
+59: just report this nasus plz
+60: gg 3v5 was hard
+61: u are the NOOB in ur team dude =)
+62: this is flame idiot
+63: In coming bot after red
+64: ffs!
+65: noob meepo xd
+66: you noob void
+67: ez follow damn
+68: Whos gonna report me? Your little bitch lux?
+69: team has been yelling at me whole game for feeding mk
+70: i get fucking retards
+71: jugger go top
+72: si ps no da ganas
+73: they stole our blue
+74: je veux gagner
+75: omg this enemy ignite -.-
+76: he obv got fed early game to get his items
+77: c'est juste vraiment pas sur a jouer
+78: report lee, insulting by "cancer"
+79: 52 guys bot
+80: reported as well then xD noob logic xD
+81: no mana dude
+82: maddafakkin aatrox gank
+83: was it turbo
+84: cait fucked
+85: u suck invoker
+86: play so bad?
+87: vai la kah
+88: eat that bitch
+89: thx tema
+90: 3v1 its bad?
+91: guess were reporting them all for unpausing
+92: FUCKING RAGE
+93: umm okay...leaona got more damages than jax^^
+94: type kill
+95: they got kills thorugh ganks
+96: report blitzcrank and singed gg wp
+97: you ks all the time
+98: he's coming back?
+99: report gragas and riven for afk plz
+100: he pick dusa

@@ -1,0 +1,19 @@
+{
+  "english_unique_messages": 605771,
+  "by_source": {
+    "LoL": 466858,
+    "Dota2": 138913
+  },
+  "candidates": 3400,
+  "candidates_by_group": {
+    "random": 1600,
+    "lexicon": 800,
+    "strong": 600,
+    "toxic_case": 400
+  },
+  "candidates_by_source": {
+    "LoL": 1900,
+    "Dota2": 1500
+  },
+  "corpus_size": 200000
+}

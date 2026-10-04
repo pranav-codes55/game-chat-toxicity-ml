@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+401: fuckin ivisible hero
+402: i hate fuckingg singed
+403: see sni play cancer
+404: i wont also help you anymore
+405: I have better things to do
+406: vayne why no stun heca ?
+407: jarvan bot
+408: nah he shit on u
+409: wors player in our team in kha
+410: your are reported nida too
+411: ez baby rage.
+412: GG ez katka
+413: go 5 dr
+414: we will have a great kids tgether\
+415: wake up vayne ^^
+416: he is a kid
+417: i hope you will report this fuckers
+418: dont use your e
+419: hello again noobs
+420: why do they play dota 2
+421: another ez game
+422: ASHE STOP FEED
+423: its ranked
+424: HOW ABOUT YOU JOIN US FOR ONCE THIS WHOLE FUCKING GAME
+425: but ziggs is always bot
+426: yes feed in bot
+427: WE GOT A NEW HERO COMING THIS YEAR
+428: im a cat
+429: all report him pls
+430: ez safe
+431: what the fuck just happend
+432: HOW DA FUCK THAT CREEP WENT THERE
+433: what a shiit game lol
+434: how cancerous can you be
+435: wtf THIS SWAGER
+436: ss kah
+437: all malz u fagot stop that :D
+438: are U RETARD? OR USELESS
+439: lvl 15
+440: lets rp cancer od
+441: \what a retard zac
+442: can u report garen for troll pick?
+443: no wards on outer lanes = enemy gank win
+444: Cover Syndra
+445: guys i need do babysit in top
+446: irelia you need to go a bit tanky
+447: go fucking top
+448: u and corki are reported.
+449: i fucked ashe solo
+450: first time tristana fucknut
+451: sf said abyysal for am is for noob
+452: 1vs9 game
+453: push lanes pls
+454: tak n useless kak ya
+455: ez 4 second
+456: report ahri for troll pls
+457: have fun ^^
+458: graves suck my dick report yu mothefucka bitch
+459: surrender you retards
+460: was to late up
+461: GO FUCKING AWAY
+462: auto report ahahah
+463: dude u lost and ledt
+464: OMG Repor>T THIS FAGOOT PLS
+465: u got caught and lost us nashor
+466: pls report lux for afk
+467: SPECTRE FARMING JUNGLE WHEN ALL 5 OF UD EAD XD
+468: ez win]
+469: we can win 4vs5
+470: report es carry\
+471: u are uselss
+472: and then talk
+473: but i wanna gank'em
+474: GO BOT RUN
+475: my team retard
+476: im base and u go push
+477: How the fuck did i get that kill
+478: absolutely retarded plays
+479: El retraso es grave en la fuerza
+480: youre kidding?
+481: u guys are awgul
+482: VLADIMIR PUTIN
+483: TILT ME I STILL WIN
+484: noob scared
+485: you are doing the same dickhead
+486: to 8-4
+487: down bitch
+488: u didn`t forcestaff
+489: lol get fked
+490: fucking bashlord over here
+491: twitch you idiot
+492: i need ,kills
+493: i should not greed
+494: report sky y pa
+495: you can ward over the wall
+496: i dont save you with my ult
+497: ripple is going down :( HODL!!!
+498: is it cold?
+499: a not so useless sf
+500: all 5 here

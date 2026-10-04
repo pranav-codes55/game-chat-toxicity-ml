@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+1101: fuckking ks*
+1102: i saw that shit.
+1103: holy fuck
+1104: can u shit apoe
+1105: E is a ' flash'
+1106: god don't gg wp when we don't have bot xD
+1107: tell me what do u see? when u ganking me, wooohoohoho
+1108: how about report joker together?
+1109: i try both
+1110: so close malph :P
+1111: i report team
+1112: just with hlep
+1113: shaco is shiit
+1114: report shaker and spirit
+1115: man u are hopeless worse than my lc
+1116: m,y idiot sniper said too ez
+1117: stfu talon you got 9 reports
+1118: because you and your premade fuck our game
+1119: take w
+1120: this pa trash
+1121: no just wondering who no one of you have skill !
+1122: def top maybe idiots
+1123: ez late
+1124: yeh, ez kill level 1
+1125: 800 for es
+1126: THEY ARE PUSHING MID FAGGOTS?
+1127: im feeding courier mid
+1128: yes they were good at bot lane
+1129: yeah so scared that i come alone to yr base
+1130: sorry no intended
+1131: say goodbye to baron
+1132: ez 3k
+1133: such fucking retards
+1134: stop acting like ur good
+1135: omg i was not going to flash until i saw ez low hp
+1136: to sek
+1137: cause a fucking moron
+1138: i rather report you
+1139: teemo come
+1140: EL BLOOD ESTA DE PARCHE DOMAS
+1141: u lost ur bot dude
+1142: ty for stacking for me :D
+1143: but you throwed vers hard
+1144: anyway_loss
+1145: dont def plz
+1146: today my internet was crash
+1147: ohhh first time blue
+1148: you troll my game
+1149: she is awesome
+1150: good now guys
+1151: Report cm ty
+1152: i m so pro
+1153: ez top :))
+1154: bronze shit
+1155: eat my fucking ass
+1156: needed it.
+1157: u won't believe me
+1158: report all for offensive
+1159: suport lv 24
+1160: so amazing voker
+1161: i report you 2
+1162: dont try 1v5 when youre 1/8
+1163: report noc for flame and blame all of his team and think he's pro jungler x)
+1164: care kassa
+1165: lucky i got idiot core
+1166: alll report kasa
+1167: Totally mad
+1168: Ez to me
+1169: I KNOW UR GAM
+1170: nasus outfarms fiora
+1171: run when you see slardar.
+1172: ya y mori?
+1173: i called top like 3 times
+1174: Retards end
+1175: report gragas --- Gragas (Gragas): i can be nazi
+1176: ez any where nob wan play nob carry
+1177: JUST PICK ORDE
+1178: gj varus * :D
+1179: it will come back
+1180: fucking really?
+1181: ye, visage is the broken one ok
+1182: don't u get it?
+1183: ours kinda too, but its still a little bit better
+1184: no def :D
+1185: stun the creep
+1186: never play sup again
+1187: AHHAHAHAH SOO EASY
+1188: webs work on shit other than spiders?
+1189: come out let me farm u
+1190: pls 
+1191: you cried like a bitch when you lost 2 towers in 10 mins
+1192: have fun with 5x report
+1193: why scare her
+1194: no llegas ni a 4k mongolo
+1195: I suck sorry
+1196: ez also 7/1 tho
+1197: Help idiot
+1198: ill get graves
+1199: reng i wont kill you
+1200: all my team except lee is muted

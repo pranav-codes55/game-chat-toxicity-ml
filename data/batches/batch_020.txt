@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+1901: hate noob bladis
+1902: yeah after all your unpauses
+1903: report zyra for flame, and he wanna suck my cock :D
+1904: and report sniper for stealing lanes
+1905: you said 1 hour?
+1906: olaf this 2 are friends
+1907: ez lng po
+1908: pues os vais
+1909: lol fuck you guys
+1910: everytime u feed mid
+1911: well if you are dead he cant gank you
+1912: you idiot fucking noob stop flame and play kid
+1913: this sf reported
+1914: we stay bot
+1915: What nida ?
+1916: 1 por 3
+1917: fk lagg spike
+1918: you are just not fair
+1919: and all together
+1920: lel kid
+1921: i wante to play tehieee
+1922: ult in 40
+1923: U NID B
+1924: report snip[er
+1925: orchid is so tryhard
+1926: so go suck his dick
+1927: wtf is wrong with u morons
+1928: and how play with faggots like my team?
+1929: where did heimer go?
+1930: ure so dumb guys
+1931: report offlane and pa
+1932: vi reported
+1933: yasuo let me
+1934: are totalyy fucked up
+1935: e parece increible este equiopoi de mierda que tengo asi te lo digo
+1936: everytime survived with her
+1937: Wait party
+1938: how da fuck did u guys threw it ?
+1939: it does suck, buts it not out fault :(
+1940: how hes dealing that much dmg ?
+1941: wouldnt have survive ur stun
+1942: ]n1 lee
+1943: g gwp all
+1944: did you pick kha
+1945: spawn*
+1946: Can you gank top sometimes?
+1947: ez 650
+1948: bane fail build lol
+1949: I hope we will lose
+1950: gg push and win easy carrys
+1951: thx for u team
+1952: report salo pls
+1953: it will be easy idiot
+1954: coemdn tri lane feedd jaja
+1955: he will leave soon
+1956: late ult4
+1957: and u have extra damage
+1958: JUST SHUT THE FUCK YP
+1959: did you fucking see that
+1960: ,nasus noob?
+1961: they pinked
+1962: doesnt fuckin look like it
+1963: fking feeders
+1964: CAN U TELL ME
+1965: REmember that you should bring more than 25 pesos to the internet cafes
+1966: wu kong never buy latern again yes?
+1967: Shitty team, shitty game. :D
+1968: a ya 1
+1969: report jugger que no aporta
+1970: bad at dota
+1971: most tilting expirance of my life
+1972: was für leben der hat
+1973: gg comend me pls
+1974: my lane is in mid?
+1975: nn comme sa
+1976: i was tipyn XD
+1977: go all bot
+1978: i own you
+1979: new meta es, blink for wat
+1980: go to sleep kid
+1981: que inveja do time de voces
+1982: guys is it fun?
+1983: Ez hc pro
+1984: use trinket
+1985: stop push so muhc
+1986: pl noob ply ogy just now?
+1987: meanwhile WW
+1988: thx for help ..
+1989: 4 bot, free pish on top. sivir? she is clearing a ward!!!!
+1990: your head is broken
+1991: w/e ists true
+1992: like you need blue
+1993: coming mid after
+1994: big black
+1995: you are not good either
+1996: suck meepos dick
+1997: nami, reported for flame
+1998: go play lol
+1999: maybe you deserve to get flamed
+2000: kate go top or reported

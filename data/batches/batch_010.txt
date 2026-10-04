@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+901: game is OVER!
+902: hahaha 3 guys wasting it all on me
+903: i will report u : yi and ez
+904: with max mana
+905: i dont fuck myself but instead i will make love to ur mother
+906: 2 spears and draven dead
+907: im working in shop u see
+908: can u believe invoker saved u
+909: report this 2 useles piece of shits
+910: W8 LOL
+911: entra mid ai
+912: And Kha, toxic as fuck.
+913: & u rape enemy
+914: care bro
+915: retard pick jungle plis
+916: that ashe :/
+917: dont worry ill feed for u buddy
+918: like ur omni
+919: i will fuck you from back noob
+920: coz they cant even bait
+921: no ss so stfu
+922: you harassmed me
+923: use ulti
+924: Fuck you troll
+925: why bb
+926: HEAD COUNT TAYO
+927: fuck off fetie
+928: CANT BELIEVE UR LUCK DUDE
+929: fuck 2 points in to w
+930: we dont wanna listen to you
+931: ROMANIA FOR EVER
+932: shut up plz, stop insult
+933: ywa but me and nidas network is fucked up!
+934: 2 RETARDS
+935: elise you didnt gank once top or bot
+936: ur all trash
+937: malpgite supp needs to suck
+938: fucking trolling nunu
+939: but late game?
+940: and u gonna report me
+941: lb just flaming and talking shit lol
+942: EZ 2 EZ EC
+943: and this is why i hate children
+944: im not american idiot
+945: epic pick
+946: swear words are not a good way to argue, you are not using facts, only some rertarded rabble
+947: Muy bien, y tu?
+948: ez, ez
+949: im ez mid
+950: wtf was that pathing
+951: report am ?
+952: none of you are winning your lane so you should all be reported?
+953: useless moron
+954: 0k shit
+955: cuz solo que
+956: she said thanks for the DICK
+957: ùmore pls Xd
+958: do rape storm please
+959: gg wp brood u solo win dis shit game
+960: i might have to try that sometime
+961: heco go top
+962: never jungled fizz before btw
+963: camo and ff
+964: help,no play only -.-
+965: she has ult and shit
+966: you die 7 time dude
+967: report teemo instanlock when shyvana said first top
+968: retard feeder? said cassio 2 4
+969: end mid pls im afk
+970: pro wards
+971: sure u can report me...or maybe just think why
+972: morde u are bot with shyv
+973: repor talch thx
+974: guess lee is afk
+975: encima el retard del lee
+976: fuc king shroom,
+977: are you fucking real
+978: ez target
+979: small 2 inch penis
+980: cannot wait to defeat trash spectre like this
+981: report sf and bs
+982: FUK U
+983: ya im play for fun but i wanna play better players annie are good and warwick
+984: farm only ?
+985: guys i jsut launched a song with my dad super blue on youtube
+986: 1 over 4 times 1 x 4 and shit
+987: drop ur items
+988: yes, he's laughing. xD
+989: u can end der
+990: its not pubg
+991: same bro
+992: 41 farm
+993: Putain c'est quoi cet autist de Corki qui est en plein devant dans la fight
+994: and thats are platin player ....is LoL not sad?
+995: and they stay one line
+996: u are shit for me
+997: ESPERO QUE POR TODOS
+998: kindlyt report BB
+999: bobo mid bobo bot = ggg
+1000: void come i dont def

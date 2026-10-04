@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+2101: Но сum = сперма
+2102: i just missed
+2103: i have to play good
+2104: and yi was fighting too cant u see
+2105: bot was so hard fucked
+2106: what game dude
+2107: u fuck trollz
+2108: Die with your team you fucking retard.
+2109: builds full tank, yet more damage
+2110: tem jeito n
+2111: udyr go top
+2112: u trolled me so hard
+2113: would much rather struggle in a 1v1 than a 2v1
+2114: alistar support
+2115: they are outrageous
+2116: and muted all
+2117: ni you shen me?
+2118: tan buenos son 3n 3k?
+2119: ff and report sniper
+2120: u focus a tank varys
+2121: ajjjjjjjjjjjj un manco
+2122: nigga doesnt know how t o cast
+2123: WANNA hear something really interesting?
+2124: we got a shaman afk all game long
+2125: WOW YOU KILLED ME YOU ARE SO GOOOOD
+2126: or to play !
+2127: ^DD
+2128: or telly uor silver 1 duo to take whats left
+2129: did she 1 shot u?
+2130: fucking braindead piece of trash
+2131: report tresh for offensive language verbal abuse and thinks he pro insult like a kid all time he died
+2132: thats what matters.
+2133: What u're bitchin' ?
+2134: pls report magnus and treant
+2135: easy lmfao
+2136: how to buy items
+2137: come galio
+2138: and i cant roam
+2139: they didnt XPEKE'D THAT BACKDOOR
+2140: shaco gank poonly bot idiot
+2141: yi just fucking help me top !
+2142: kills me xD
+2143: you dont have to help
+2144: noob shen play solo
+2145: LOL techies picker should be reported
+2146: what a child
+2147: And i deal mor dmg then mid
+2148: top tele
+2149: again only with leblanc so bad and zed you suck
+2150: do you think we can deffen 2vs 4
+2151: fuck me in safelane
+2152: shes real strong
+2153: gp never play
+2154: its gg anyway... noob team
+2155: you will fuck me more
+2156: cuase u sucks
+2157: 0 kills for meh.
+2158: then play eu
+2159: do you really need that Vlad?
+2160: your mother is my wife!
+2161: shut the fuck up stupid hoe
+2162: yh coz we were out of position
+2163: just presure top now
+2164: B5 wannabe LCS player
+2165: what a puck
+2166: ez game lads
+2167: and your premade too
+2168: darius afk??
+2169: keep insulting
+2170: for fun thoi
+2171: nah he is a retard
+2172: cmon ryze
+2173: and all russians are shit
+2174: ghost in ur pants
+2175: report tiny for no rampage
+2176: Ty i fucked her yesterday
+2177: fuck u thought
+2178: ich reporte deine mutter weil sie dich gezeugt hat
+2179: i love her boobs too
+2180: and the jungler?
+2181: Still want a resume now faggot?
+2182: report m,angus
+2183: aw ez daw
+2184: we changed focus because quinn was far
+2185: nd ur behind
+2186: HOOK 9K
+2187: bot didnt cover
+2188: counter pick ?
+2189: gg report necro
+2190: feelin sad for ya
+2191: now we should wait
+2192: where he?
+2193: god if you are average
+2194: DUDE I was afk
+2195: so no report for nami
+2196: so am i lol
+2197: gg bot$$
+2198: elise camp top
+2199: almost failed that one thx zig
+2200: youre a bit of a bitch arent you kotl?

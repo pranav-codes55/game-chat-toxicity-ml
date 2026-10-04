@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+701: ez mid btw :3
+702: its good.
+703: Y U NO WANT PENTA
+704: arrété tower dive ...
+705: best riven euw
+706: im listen music
+707: no soy venom
+708: go mid an fight
+709: top is always solo man ;)
+710: fokus team fight and we win
+711: well armor
+712: WEll fucking player
+713: stupid od shit
+714: this party mmr tryhard shit
+715: i mean usually you rotate a little
+716: retarded???
+717: fuck 2.3k
+718: can't play with gay bruiser
+719: ez mid))))
+720: he got mad beacause he's a shitty beaner
+721: sivir <3
+722: yeah we have jungle at turbo
+723: i said u have
+724: That hero ahs literally 700 hp
+725: can we all agree to report this joker
+726: And stupid blamer
+727: Ez ´pudge xd
+728: need swap?
+729: gg reprot lina
+730: REPORT THIS RETARD TEAM
+731: 0 gank top too ;)
+732: wP THANKS MAGNUS &wR FOR FUCKING LOSE
+733: im really glad you carry me teemo
+734: my bad so sry
+735: ward dragon not bush
+736: iam so fucked
+737: fuck sry minions op
+738: blinding light is hard to use
+739: go back to afk
+740: vs invoker and am
+741: fuckin 4 v 5
+742: we lost bot but won hard mid
+743: all planned wanted to bait a tp
+744: TRASH TALKING
+745: or like he fucked your dad personal
+746: Base my lulu
+747: how mines do you think there are rorry
+748: toxic trash all games
+749: lee if u landed q just go
+750: nice lasso bro
+751: i focus akali and kill she
+752: ya te cagas4 todo el dota
+753: I was trying to get you to win.
+754: reported this focking idiot son of a bitch pantheon
+755: jax you get a report as well
+756: nice ban techies
+757: ;op
+758: a sup 16
+759: this 3 vs 5.
+760: rape this sf
+761: jinx poke the towe
+762: listening to that right now
+763: grp and baron
+764: she is a fuckin pr.ick
+765: nope yeah 106 playing with us
+766: then he will rape u
+767: Are u idiots?
+768: oh this ez so noob ' noob this noob that no one cares !
+769: just stop fucking arguing
+770: i wont help him if you try to kill
+771: magnus has been playing for longer
+772: no,1 v 5
+773: Fucking toxic player
+774: WASNT FUCKING FREE AS BARON WAS
+775: really pa -_-
+776: help omg
+777: what elo is this lol
+778: nice penta,but useless jungler
+779: all PLSS REPORT NECRO AND WK
+780: When I say Wadu u say ...
+781: Wtf fuck you
+782: just want push
+783: focus one
+784: make sure bot is clear of wards
+785: vendetta x 2 hijo de puta
+786: mid never pulls
+787: a la mierd a
+788: No noob attitude please
+789: is she fed?
+790: sry 4
+791: so stupid to invade at 2
+792: can't kill a puck
+793: are you fuckin serious?
+794: dont try and be nice when you are the biggest cunt i jhave evr seen on tjhis game
+795: bait hum
+796: mf saying shes drunkm but she can write perfectly. lol
+797: we just need focus and we win
+798: do whatever u wont
+799: fuck off wd
+800: we r strong

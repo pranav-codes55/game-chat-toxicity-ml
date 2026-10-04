@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+3001: fuck you aurelio
+3002: lets group now
+3003: GG (
+3004: take tower bot
+3005: U GOT ' MUCH LUCK
+3006: hahaah they want me to feed
+3007: stupid feed
+3008: this fucking pugna is not even helping as
+3009: i want to cray
+3010: but i got a range
+3011: after nash we can get all inhibs
+3012: i ganked top 1 time
+3013: and the noob pownd u retard
+3014: already enough to destroy it
+3015: kk noc
+3016: i forget that 5k pubs dont know how to play like team
+3017: Well just report Nasus Xin and Zed, ty, gg wp
+3018: take t3
+3019: FUCK THAT ULT
+3020: dg suck on him
+3021: i killed zec u noob
+3022: noobs todo el rato
+3023: vayne just all depressing n shit
+3024: fuck , luck again :
+3025: huskar fuck off
+3026: ihr seit echt zu schlecht für rankeds. Tut mir Leid :`(
+3027: hey WE HAVE BUYBACKS GO END
+3028: if my sk was feeding
+3029: pause to look storm funny
+3030: y eso q el am jugaba en serio
+3031: who us
+3032: we both noob
+3033: id be alive
+3034: youz has mana
+3035: i dont get mad at noob
+3036: youre a fucking retard, stop focusing sup
+3037: ebat ti down
+3038: 4 kills retard support
+3039: i will report u for feed
+3040: while evreyone dead
+3041: Come on creeps, you can do this!
+3042: akali i pinged,,,
+3043: we are playing vs 3 so shut up
+3044: destriy items on nid
+3045: i carry us
+3046: u to noob with no hacks
+3047: this support idiot
+3048: no sabes lo k es una ip
+3049: pull their blue, blitz?
+3050: repot heim
+3051: cant even time the x
+3052: #o.O
+3053: tää mun build
+3054: how did we not win that?
+3055: lets see if this beats my best techies game
+3056: let our stupid PL push
+3057: man fuck this guy
+3058: just random noob top laner that gets carry by jungler
+3059: look my die
+3060: your dead slowest
+3061: all thoes who ask for report getting reported.
+3062: this is some high quality dota
+3063: yas last game u trash
+3064: IS THAT SUCKONDEEZ
+3065: you are lisardman
+3066: and we dk
+3067: legendkiller wanna play 1 more?
+3068: nice bait haha
+3069: EZ GAME LEA
+3070: whole dire team
+3071: nо pазвитию лeт 10-12
+3072: omg lag Oo
+3073: that motherfucker
+3074: soy español meirda seca
+3075: jumgler is very noob
+3076: are u kiddins
+3077: see carry mid mirana
+3078: dat noob killed me
+3079: I am killing myself
+3080: solo 1 tower mid nice push
+3081: it had not hit me because i dodge dit
+3082: dat yi drop :3
+3083: fck yeah jinx and fizz throw
+3084: hi can u tell ur friend to come back
+3085: if teemo dont back
+3086: corki i want you to fuck them all
+3087: come one bitch
+3088: but you lady go on them
+3089: buyt i am lock in bronze
+3090: says team 0 dmg
+3091: the fuck u doing
+3092: i will try to stop suck now
+3093: Probably I've got most dmg
+3094: WE HD A FREE FKING BARON
+3095: gg ... cait ruined it
+3096: need 5 to kill fucking od
+3097: NICE HERO BTW NOOB
+3098: i make no sence
+3099: dagger sa wards puta
+3100: i was def

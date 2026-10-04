@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+2601: report second mid picker
+2602: naut come fast'
+2603: and you playing a noob
+2604: lmao 3 sitting
+2605: lane pushed...
+2606: 3 retards os the team
+2607: kha zix is just a little ki
+2608: I dont give a fuck to this game
+2609: when you kill us
+2610: 2 skill ?
+2611: fizz help him pls
+2612: no whats twitter?
+2613: u should babysit bot
+2614: maybe fuck you?
+2615: idiot cassio
+2616: as if you do the dmg to me
+2617: UDYR 13
+2618: report this fucking teemo
+2619: before we start i was sure the bot lane will be fail
+2620: still dont get why
+2621: just report this 2 fucks
+2622: ez 0/2
+2623: i rape u everywhere
+2624: you are vayne
+2625: so, you are wellcome
+2626: i don't know why u go in low hp
+2627: just play safe zyra
+2628: thx me too
+2629: full suport
+2630: HEY BASE
+2631: jug cancer afk
+2632: stop you 2 now... GG
+2633: i red and gang bot
+2634: am is really virus
+2635: if i have normal
+2636: i cant do much
+2637: don't help mid
+2638: cuz u dont have other hand
+2639: and u die 0-3 bot
+2640: why the fuck stay in range lux?
+2641: eu to falando
+2642: Pero da pena tu colega
+2643: bc he is the most time in base
+2644: fail comp --- feat J4 and Lulu
+2645: rly ..
+2646: Ez cancer
+2647: jaja idiot
+2648: nice mirana idiot
+2649: fatman is my bitch
+2650: je ti menya
+2651: supp penta :D
+2652: vi is fed
+2653: u lose since 1min
+2654: xin gank top dont come bot
+2655: report alch plz
+2656: considering your move there I actually believe you fucked him up
+2657: destant est gay
+2658: like dis
+2659: ne mmr
+2660: ez game jgrt?
+2661: cause i have noob team no protect adc retardad
+2662: not in silver 4
+2663: idiots dc game
+2664: so leblanc u get blue but u still want to afk
+2665: Honestly you guys can prob win if you push mid right now
+2666: too bad omni left
+2667: feed mid
+2668: instead of a support
+2669: fuck ss
+2670: but i will have no stun
+2671: are you strolling around
+2672: ah sy mate
+2673: i rpiotect bot
+2674: forgot that bitch hadded a guardian
+2675: if i help
+2676: we have a mental cunt in our team aswell
+2677: je parlais a matteo, ne te brusque pas <3
+2678: LOL I PICK ANNIE NOOB
+2679: you never helped top
+2680: op xerath
+2681: THANKS FOR THE HOOK :)
+2682: is ez to win
+2683: ill keep on splitting
+2684: oh well, took out zed and vayne
+2685: ill stay bot
+2686: fuckings cried about top, and is AFK?!?!??!
+2687: Report jax for negative attitude
+2688: he fucking retard
+2689: new meta am off
+2690: pls report storm
+2691: he will get rekt by qop
+2692: y pide report
+2693: guys dont def fckıng fınısh
+2694: you said me useless ok i no help
+2695: the fck u
+2696: u are only in this because of our picking phase and ez
+2697: and i will report u
+2698: Oh shit, he helped someone get ak ill now he's got his big boy pants on
+2699: gg fuck
+2700: what gay

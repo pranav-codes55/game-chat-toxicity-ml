@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+3201: pignoy, low class attitude, no wonder you are poor
+3202: NICE ITEM BUILD
+3203: ck feeders
+3204: i asked for help!
+3205: my job is not to have a good kda
+3206: no jix so i troll xD
+3207: why go there ?
+3208: call me jess
+3209: jätä toi homo kuolemaan vaan
+3210: ti sbagli ho un adc anticappato
+3211: plz help report lna
+3212: tech do u like isis?
+3213: ai ai ai
+3214: nice follow corki
+3215: Swap Trash ?
+3216: report swain draven
+3217: not party ?
+3218: good 1-6
+3219: never ult graves
+3220: feel my pain
+3221: a ty
+3222: what do you excpect
+3223: dat duo lane top
+3224: za to chto ti dolbaeb?
+3225: pl;ssay yes
+3226: report this team ty
+3227: please dont blame eachother and look at ur mistakes okey?
+3228: GG WP EZ
+3229: if not for that piece of shit accidently dripping cum into your mothers pussy
+3230: reprot u all
+3231: and it depends not only on you
+3232: am, why not farmed
+3233: so sorry atrox
+3234: entra por hay
+3235: if i gank and other sleep
+3236: fucking no
+3237: 10 yo kid
+3238: yeah bitch stfu and wait pls
+3239: for u i dont think so
+3240: bot come help blue pls
+3241: Why so tryharding?
+3242: Blood xd
+3243: i hate u+
+3244: trash talk pa kunnka
+3245: fuck §m!!!
+3246: his idiot
+3247: we cangt play
+3248: corki,zed + my team reported banned
+3249: yeah he is fucking rusiian dog
+3250: spec so bad gg
+3251: 15-0 pa
+3252: Dont forget to type ez after game
+3253: I could have made a baked potato in the amount of time we've waited
+3254: get ready to ff
+3255: U ARE ACTUALLY ALL
+3256: ez take red
+3257: not so fun to be annoying now Elise?
+3258: just have no carry and
+3259: things*
+3260: Almost as bad as a 0/2 AM
+3261: shyvana can u start gankign
+3262: miss so noob
+3263: shaco ghet some hp
+3264: dat reaction
+3265: the fucking psycho
+3266: am 0
+3267: what Q W E R
+3268: no need u lycan
+3269: look top feeding mid feeding and my adc feed too
+3270: focus rammus
+3271: report Akali, stupid fucking waste of oxigyn
+3272: LIKE KHA ZIX...... HE NEVER GANKED MID
+3273: where is gyro
+3274: So i lose turret..
+3275: just unpause only
+3276: flame more thx
+3277: hahaha dieser blitz
+3278: you fucking russians should be retricted to your own server
+3279: more haress jayce
+3280: Fuck u illu
+3281: dont u understand
+3282: more tower range and retard rikigaming
+3283: hug me bro
+3284: kat help top
+3285: dont forget to report AM
+3286: Fukc u all
+3287: khazix and ahri
+3288: u mad u cant be as pro as this kotl?
+3289: buy MR against nunu
+3290: if we leave should we play more shit?
+3291: why so noob
+3292: nice --- ping -.-
+3293: you're zoning riven pretty fucking hard
+3294: make him jhump
+3295: ya ez mid
+3296: go hard invoker
+3297: FUCK YOU AXE
+3298: retards pick
+3299: but not cause we dont have the potential
+3300: ez no dmg..

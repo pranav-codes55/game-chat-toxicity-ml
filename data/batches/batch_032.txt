@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+3101: lol you feed vayne
+3102: SPAM FASTER TINKER
+3103: when i was just a child
+3104: its fucking 2018 ed
+3105: And than just picked olaf.
+3106: Ez baited
+3107: lose gold
+3108: lol your life
+3109: .report nami
+3110: why u balme me
+3111: loool, i gank mid, bot and then i was top
+3112: ¨just because i want help
+3113: they commend me cause they'll win. hahaha
+3114: MORDE!
+3115: idiot..
+3116: u and ur premade taric
+3117: WHY GO AWAY
+3118: mf why u flame?
+3119: surrender!!
+3120: dem ults
+3121: taric stun and die
+3122: report you for retrar
+3123: pode ou nao ??
+3124: always top pushed
+3125: tresh come on stop this
+3126: how did i kill you bara
+3127: all fed like hell
+3128: wp fa
+3129: relax ill fuck am's mom later
+3130: me 4-2
+3131: ya decia yo tengo runas de ap -.-
+3132: PODGE AT MID
+3133: DIE LEE SIN DIE YOU FAT FUCK
+3134: shonmal was von lanphase is vorbei gehört
+3135: you go and all dead for ks gg
+3136: bro stfu
+3137: "maoki carrying so hard"
+3138: told you lets make it 5 rofl
+3139: im only support
+3140: he say wanna make with u
+3141: nida u are useless
+3142: we have not a tank
+3143: still no ss
+3144: idc of u tard idiot
+3145: you suck dick bro
+3146: 4vs5 u r so noobs
+3147: me and heca will just make a party in spawn
+3148: HAHAHA i never think about you
+3149: that mid lane
+3150: xd easy easy
+3151: idiot and bastard
+3152: D::D:D
+3153: ashe 0 damage
+3154: im not retarded.. >_>
+3155: report the troll please and let me get a new game
+3156: ruin the fucking game
+3157: look at this fucking mf
+3158: ts fuckt ab
+3159: bot 2/9
+3160: i bet u can kill her now
+3161: ss leo
+3162: you ksed some kills last game?
+3163: Fizz und ich
+3164: i farmed heroes
+3165: stop go alone pls
+3166: to real
+3167: sick - dick
+3168: in top i 2 vs 1
+3169: and they have a adc
+3170: come on bait them
+3171: i can hold bot
+3172: im not talking to you, why do you want english
+3173: until its really oer
+3174: u dont see we have a hard time bot?
+3175: ward idiot
+3176: yes i dont
+3177: feeder/flamer
+3178: wait for ward
+3179: De 4 xd
+3180: and dont go where its not warded
+3181: report this shit on storm pls
+3182: anda confundido no save su rol
+3183: i knew u will say that
+3184: whats your point
+3185: i did bs
+3186: hahah so kid
+3187: pudge mid lmao
+3188: ult wasnt ready i was pretty sure i could get both
+3189: voli !
+3190: otherwise get ur shit together
+3191: u throwed anyway, bot
+3192: CRY MORE NOOB
+3193: SOIOO FUCKING NOOB TEAM
+3194: and report maokay
+3195: zac second gank mid
+3196: nice feed malzahar
+3197: amazing ez
+3198: SOLO EZ!!!!!
+3199: alors quil a dit en premier
+3200: when heca was bot
