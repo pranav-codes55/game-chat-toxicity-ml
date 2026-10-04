@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+601: necro just feeding
+602: HOW IS UR GAME TINKER XAAXAXXAAAX
+603: fucking support kill ck and carry
+604: ASI DICES REPORT ?
+605: cancer picks
+606: guy stop troll can win easy
+607: leona noob
+608: just 5 man and end plz
+609: AH SUPPORT PINOY AGAIN
+610: spirit breaky sleepy as well huh
+611: hahahaha lol
+612: by my sf
+613: Fucking up so bad
+614: darius go top ok??? plz
+615: good job jug
+616: they got a good earlygame
+617: this invo so fucking asshole
+618: ult in 25
+619: suck my coconut first
+620: OMG noob team.....
+621: me lel
+622: urgot too stonk
+623: fucking lag man
+624: mother fucker fast
+625: a base
+626: shen protect me goddamnit
+627: pls first ashe fizz
+628: enjoy your 'victory', well played kid
+629: stfu already
+630: tanky as fuck
+631: plain and simple
+632: madre 3
+633: cry me a river shitter
+634: thnx for not trolling
+635: i suck with squishy champs
+636: such pathetic pain
+637: hasn't used any of her stuns
+638: top keep kill me but still fat
+639: There are idiots in all games
+640: lee no atack solo
+641: yeah and also tell those 2 to back off
+642: actually you suck orianna just shut up and get carried
+643: go afk now
+644: YOUR JOKER SO EZ
+645: just end this team is retarded
+646: he put mine on mid
+647: for u man
+648: faggot ass bs
+649: we waited bb
+650: 9.03 TB
+651: girl game
+652: why noobs, for running?
+653: i dont troll..
+654: you were close
+655: i expected more from you
+656: Will he reconnect?
+657: she is that good
+658: why u waste money in this shit
+659: then these fucking pussies abandoned
+660: lame. didnt even ult
+661: voy bot
+662: little faggot
+663: my fck build
+664: adn thats a fact
+665: omni REPORTED :DD
+666: noob ass throws
+667: i am a simple man
+668: i commend you
+669: dumb....
+670: how my utly didnt dmg u ?
+671: you build shit
+672: 0 mana 0 hp
+673: I WILL SURVIVEEEEEEE!!!!!!!!!!
+674: PT DE CU EH ROLA
+675: time it's money
+676: i should be on ancient i fuck up or sea fuck me up i dont know
+677: like me o.O
+678: epic kid xD
+679: best noob team
+680: i said he was stupid for picking a top champ
+681: quer dar gg na tora
+682: dont feed corki
+683: way too nab morhp
+684: easy counter^^
+685: we fight or go back?
+686: and i am the noob... ?
+687: hate you
+688: he is ont the top
+689: dat q gave me cancer
+690: keep your lanes in place
+691: If you wanna rise the ranks
+692: well that was ubnfortunate
+693: antonio pay attention on your back
+694: we all report weaver
+695: mabye one of us didnt
+696: report trundle
+697: he knew...
+698: pugna so noob
+699: go at 5 for finish
+700: lol perma cc

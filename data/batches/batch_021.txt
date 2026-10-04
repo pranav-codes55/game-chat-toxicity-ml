@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+2001: last picks invoker when we have 4 cores.... is suprised when we get fucked in lane....
+2002: fuck tyih game
+2003: to use requiem
+2004: dont flame, relax and shut up
+2005: ohhh cool report
+2006: and even more idiot than viper
+2007: no flash for hiim
+2008: put some vision and stop the fucking pining
+2009: how did you see me
+2010: are you fucking dumb?
+2011: longest fucking stun in the world
+2012: mid on our side
+2013: atm..
+2014: another testing hero shit
+2015: i lost lane coz jarvan gave her so much advantage
+2016: fuck u want fiddle?
+2017: And that worked well right zyra,
+2018: o,o
+2019: You little bitch.
+2020: atleast im not fail mid
+2021: try me u arab fuck
+2022: okej, u gay or smth?
+2023: i live?
+2024: shes feeding on purpose lol
+2025: OMFG IDIOT AHRI FIRST TIME LOL
+2026: FUCKING RAZA OF SHIT
+2027: nice, thats what i wanted
+2028: a malph appears
+2029: guys in tf stay in tf
+2030: i hope u take the cancer
+2031: ok and report kayle
+2032: yeah i dont see us winning this game
+2033: ? from the fuck did u come
+2034: Say something pudge
+2035: fuck back door
+2036: you're not very good
+2037: ti da, zaebisj ult dal
+2038: u guys bailed
+2039: so ok :p
+2040: grp up and snipe ez/ori etc
+2041: ulti inc
+2042: got GA
+2043: y after red
+2044: and let void free farm
+2045: RIGHT?>
+2046: ON NO
+2047: you are anoob shit
+2048: im going to have very slow start from now on
+2049: just leave him be
+2050: minions so fucking op
+2051: my od is retarded
+2052: zooo die bot even gesloopt
+2053: you get firstblood on this nigger chen yes
+2054: damn ez
+2055: vayen no flash
+2056: press J to predict a game
+2057: fuck them no wards -.-
+2058: am 1x1 go
+2059: he doesnt'\ even know how to play a good techies
+2060: give may btc
+2061: it's all bc me and clock rape top
+2062: i cant moron
+2063: ez sup\
+2064: focus me?
+2065: why so ez ???
+2066: rip archon5 dick
+2067: every slash on me
+2068: we sucked
+2069: wake up zed
+2070: and im going to fucking shoto myself
+2071: imma feed mid and bot
+2072: and fed OD
+2073: money in da bank
+2074: lol the noob try to taunt XD
+2075: imma bait bot
+2076: missed my barrier :p
+2077: so fucking bad guys
+2078: Can all of you report Elise?
+2079: sad nigga hours
+2080: fuck u on about ?
+2081: pota ginamit ACC na to hahahha
+2082: And I have two flamers to deal with.
+2083: i miss highground
+2084: bot side mid warded
+2085: report yellow and purple.
+2086: random boy
+2087: die es
+2088: take our blue
+2089: team wp
+2090: dont come plz
+2091: 2 noobs huh
+2092: report sb for communication abuse but so stupid
+2093: you;re irrelevent
+2094: go vi ?
+2095: why they flame?
+2096: hi every1 im new!!!!!!! *holds up spork*
+2097: fuck off russians shit
+2098: im the mighty battle retard
+2099: see how trash u are
+2100: that is pro

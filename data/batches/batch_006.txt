@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+501: see what a noob team
+502: damn so bad
+503: retarded bot
+504: what are u doing here tinker?
+505: its ok we have necropos
+506: fucking flash
+507: you really fucking suck
+508: u have ward. so put it
+509: can u not end
+510: 4to down
+511: idiot that fucking jugger
+512: gg wp french noob team
+513: report yasuo instalocking
+514: tree won this
+515: 0-3 mid
+516: ich auch :)
+517: gg russia win :D
+518: ap scaling on pheonix op
+519: weaver ni o 4em
+520: no lagg
+521: địt mẹ học dốt thì chơi game phải giỏi bạn ơi
+522: u're reported for afk + lie
+523: 24/7 is sad nigga hours
+524: udyr just stay afk
+525: haha mad bro?
+526: u flaming
+527: i like your last pick tho
+528: rep pl pls
+529: probably fb
+530: had it twice when i got caught
+531: the only reason I played this game is that I was on my bo3
+532: We could have fought that
+533: time to get the eg haters
+534: WTF IS THAT NOOB GAME OMFG !!!!!
+535: could u stop this?
+536: guys giv me kills
+537: pls report gyro
+538: die by cancer
+539: or keep pushing
+540: im not a bitch
+541: so bad bot?
+542: i za push
+543: jag vill dö
+544: we tell you to do something
+545: ur the flamer
+546: we could have taken their altar 3 times now and u do nothing instead so i take ur farm ...
+547: NC TRY LUNA
+548: always get focused
+549: storm first build bs and ddnt go for kaya
+550: EZ WIN WITHOUT SUPPORT
+551: no she placed it after
+552: looked bot cause varus
+553: il drake after back
+554: shh slarky noob
+555: i follow nida like idiot
+556: easy towerdive me...
+557: oh pls stop
+558: yeah that was dumb
+559: whos this invoker
+560: becouse he could do the same
+561: no damage mundo
+562: report lucian ty fuck my promo
+563: we cant do more
+564: no? why would i shut up
+565: come our red and ill give u kill
+566: i guess camp bot
+567: Ez has the same
+568: point out my trolling kennen you little idiot
+569: nasus with 37 last hits should stfu
+570: I WARD ALL
+571: U EXPECT U WIN
+572: are you guys retarded=
+573: i atack and u just see
+574: dota was down yesterday as well
+575: just go push mid
+576: srsly stop flaming
+577: man its only me who can kill somebody
+578: me 2 but i can play
+579: game crashed -_-
+580: yh i tought they were not there :p
+581: u no sirve para nada
+582: this game is so ez
+583: can u go
+584: wait for lux
+585: i bought some ward
+586: die eu piece of shit racist
+587: tahst becouse u keep going aroud the map not pushing your fuckking tower nob
+588: go fuck urself cuntù
+589: NICE THROW GAME
+590: leona nice help xD
+591: MY TEAM NOOBS
+592: u fix ur play
+593: just a little faster next
+594: GANK <E
+595: this caitlyn so fuckin bad
+596: i'll try to pock
+597: said at start to gank medusa
+598: FUCK THIS RAMMUS
+599: report varus offensive languaje
+600: You're winning a game of AD, no need to be dicks about it

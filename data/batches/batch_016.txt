@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+1501: more feed yi
+1502: i will rape you
+1503: ha-ha
+1504: free ranked ?
+1505: as long as u with lee and thresh go top
+1506: ez fu
+1507: pangolier picking shit
+1508: the switch
+1509: oh wait lee and ryze are premades so they can talk shit
+1510: he is lvl 6 idiot
+1511: nice death
+1512: but her early sucks
+1513: noob tf
+1514: wierdest game ever
+1515: fck you all bitches
+1516: report enigma ty
+1517: i pulled akali but everybody went off
+1518: mid/top cover blue, bot help red pls
+1519: bastard go away
+1520: they are all retarded lmao
+1521: no sense to play
+1522: da fak that stuns
+1523: bro, u flashed all in
+1524: Stop write play noob
+1525: olaf suicide vs 2 and mushrooms
+1526: YEAH CD
+1527: wait need to rc
+1528: not counter of lucian go learn
+1529: Mis carrys xd
+1530: 3 shit players
+1531: wont riven destroy you this early?
+1532: report xin zhao
+1533: der is ne jungle
+1534: I will never fucking help you anymore
+1535: this syndra isnt really any good
+1536: just gimp your best lane
+1537: i love embarasing my self lol
+1538: do u know him
+1539: i said first adc bot
+1540: dont suicied with baron guys
+1541: nice 0/1
+1542: u like me magic or hitter?
+1543: AND ME WARDED THE FUCKING MAP
+1544: am, i just sup u forgot?
+1545: no need to bring up cancer
+1546: hes a kid
+1547: smiteless blue plx
+1548: i go bot then
+1549: 15% god
+1550: all reported plz
+1551: pro 24 farm D:
+1552: FUCKIGN LUCKEr
+1553: mute ur mom
+1554: report that nab troller
+1555: report yi pleas
+1556: kill for what
+1557: that was a fail
+1558: they fucking each other
+1559: rp zeus noob
+1560: try hard BITCHEs
+1561: what are u doing...
+1562: nice eed quin
+1563: shut up vpoid youre fucking terrible
+1564: are u fucking kidding me u shit fucking idiot
+1565: noob plays
+1566: ez fucking wd and monkey
+1567: mid de enfeite
+1568: RAT A CARRY
+1569: tahat stupid jinx damage
+1570: when turret done ?
+1571: fcking spanish
+1572: i am gonna get GA then Bloodthirster
+1573: moi je ragequit pas quand on mlance des pic
+1574: mine to
+1575: shut up pleass
+1576: ( tank get an oracle )
+1577: really stay with your fuckin spanish or whatever this language is
+1578: my skills all defensive
+1579: not lost
+1580: again mid ?
+1581: oh shit llol
+1582: its britney bitch
+1583: DID I GANK BOT ONCE?
+1584: master yi so noob champ report yi
+1585: dont hook with me
+1586: fuck this noobs
+1587: not carried at all :]
+1588: man pudge, you jsut fucking sat in my lane and stole XP and coudln't land a hook on mirana
+1589: what is ure problem
+1590: gg ez mid
+1591: i had no peel
+1592: she was top now
+1593: all those wasted dooms o3o
+1594: it amazing
+1595: i tank --- tower
+1596: also you maxed E on fizz
+1597: thats why they are retarded
+1598: jugg pa kill
+1599: stop getting caught
+1600: AMUMU !

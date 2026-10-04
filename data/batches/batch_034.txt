@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+3301: im full build
+3302: you cant report me
+3303: pls report pudge all of u
+3304: we handle bot easy
+3305: fuck this sf
+3306: finish mid
+3307: lets do the boss later lps
+3308: 0 shit
+3309: dog shit radiant
+3310: fuck you bitch sweet mother alche, the retard geci goes to mid and then quits because a root no-nook noob
+3311: report nida for flaming tyvm
+3312: poor fiz
+3313: and now we lose bot!
+3314: could u explane me pls?
+3315: group for fuck sake
+3316: I DON't have asshole
+3317: rage quit :/
+3318: they pick
+3319: soooo much lag
+3320: surerend that shit
+3321: you can see cause he stands in the middle of the circle
+3322: IS HARD NOOB GAME
+3323: gg ??*
+3324: 1st game ez lose-25
+3325: ME FOCA MAIS FDP
+3326: its a kayle
+3327: sorry trist sunfire
+3328: scary!
+3329: u're in 12
+3330: FUCK UR GOD
+3331: The thing that isnt false it that he doesnt suck
+3332: IF U DIDNT ABUSE OUR DC SO MUCH
+3333: ok i help push tower
+3334: or tp on base
+3335: feuerzangenbowle is the shit
+3336: all time crier
+3337: one bkb and 4 of u guys r useless
+3338: that pa throws
+3339: i am cryiong
+3340: the same with riki
+3341: cait !!
+3342: fucking polish kid
+3343: but other day yes
+3344: what about the blue he toke
+3345: this ez xD
+3346: ? invade ?
+3347: EZ MID EZ OFF
+3348: i called several time fo ganks and now mid is lost
+3349: when mid doesnt get his hero
+3350: your mother for 50 cent
+3351: report talon
+3352: you play good with riki so you are so pro i think
+3353: something like counter doesnt exist
+3354: JAJJA para mas de una normal
+3355: what happened to all this reporting?
+3356: thx teemo
+3357: tell this retard shit dk
+3358: you have no idea how right you are
+3359: i had e ready
+3360: wait i think chatbots are better at this
+3361: dat fuck
+3362: omg pant hahaha
+3363: i push bot
+3364: TRUST CARRY IF know farm
+3365: dont feed the adc pls
+3366: drag 21
+3367: sooo soo ez
+3368: fuck pink
+3369: i didnt know u can talk
+3370: u useless
+3371: pl;zz finish
+3372: gp will rape me
+3373: u fuckin use ulti
+3374: DO NOT FORGET TO REPORT TEAM
+3375: god bless tresh
+3376: why 2 bot and then already lose it? and fizz just run away
+3377: OFCIm with small dick
+3378: if akali stop slo top yes
+3379: this magic resist @@
+3380: Ty Hec
+3381: laughing is verbal harassment now
+3382: okay ill try bot now
+3383: he rp on noone
+3384: maybe saved blitz
+3385: fck you too heca
+3386: love is for girls and gays
+3387: NEVER ULT
+3388: omg stop bad plis
+3389: that made me laugh
+3390: worst fucking jugg
+3391: Te reportaria por noob, pero es demasiado que seas noob
+3392: this is how retards ruin games
+3393: garen with fizz same stuff your farm saysall and flame
+3394: i already healed u :/
+3395: already see aa es
+3396: you suck at lane
+3397: IT'S YOUR PROBLEM NOOB
+3398: kill that noob morph
+3399: noob bot ruined our game
+3400: ff *

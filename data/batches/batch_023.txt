@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+2201: USE UR ULT MORON
+2202: why noob kids always
+2203: that last 2 pick still go for the carry lol
+2204: nice guys bot
+2205: no tpeaste 1 x
+2206: gg w;p
+2207: i really dont give a shit
+2208: am delete dota and seek help u mental fuck
+2209: OUI MON CAPITAINE
+2210: what a monster :c
+2211: lee report pls !!
+2212: all 4 team members of mine are going to report me ? am the reason they lost :P
+2213: noob win lane mid
+2214: just dont fck your fps
+2215: l2 not bitch
+2216: fk you singed
+2217: hes gonna lose fuck em
+2218: ez my team))
+2219: report in lp
+2220: yep, gg
+2221: ez p[z
+2222: lol your tower idiots
+2223: but rumble ban will make me happy
+2224: Stop feed man
+2225: oh xDD
+2226: sur?
+2227: can you end this so i dont have to get a fucking rage abandon
+2228: report jax if you want to, for verbal abuse
+2229: 3 shit
+2230: ty commend support
+2231: why she would do that
+2232: jinx jungle confirmd
+2233: u want play
+2234: #too cool for yo.u
+2235: sion i started 1 vs 1
+2236: you are just feeding anyway
+2237: you are trash
+2238: fucking bronze players
+2239: dance party
+2240: in 330 Games
+2241: farm is also a score :O
+2242: gangplank spam q
+2243: go for penta! XD
+2244: just like mk till he got ownd
+2245: bot, please ward here
+2246: at least I got funny situation :D
+2247: can we report this gyro once we're done
+2248: he is feeding too
+2249: this\
+2250: soon of bitch
+2251: you like the finger?
+2252: you my bitch viper
+2253: should I change team ? :d
+2254: you shut up 2
+2255: naah just report u
+2256: Thats how useless you are I know
+2257: what r u typing man?
+2258: for this start ;(
+2259: ty bitch
+2260: first report will recieve gyro
+2261: look lux usrle!!!
+2262: report trent pls
+2263: ban fucked russ name
+2264: this voli is feeding every fucking lane he goes too
+2265: u wish#
+2266: HAHAHA RUBICK NOOB
+2267: 2 in bot
+2268: noob vi
+2269: armlet god here
+2270: syndra?
+2271: more campin in bot plz
+2272: report ember ffs
+2273: hi auto eul
+2274: instead of ags
+2275: hes trying to find reasons
+2276: 7 MIN AFK EL DK Y NO LE DA ABANDONO
+2277: /ignore made my day
+2278: COME BACK TO ME
+2279: you bot?
+2280: go all in on him
+2281: fuck the red
+2282: cigane steal pc?
+2283: 32 sec first flame.
+2284: GG pick carries but cant carry
+2285: bro i dont have friend's becasue im pudge
+2286: Mundo bot
+2287: D A L L Y
+2288: just she is stupid she pushs when i arrive xD
+2289: gl killong me
+2290: its 5v5 party game
+2291: kill this fucking idiot
+2292: best care
+2293: 1 min to game
+2294: we are always in 4v5
+2295: WE ARE THE CHILDREN
+2296: fk off annie lold
+2297: you can 4 man bot all game
+2298: a boat just for me?
+2299: big words
+2300: gg this useless guy

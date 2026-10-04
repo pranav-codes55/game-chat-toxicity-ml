@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+801: fuck no gank
+802: im just a support
+803: lol i ping like twice retard
+804: we done care lol
+805: cause u are trash talıker like my ns
+806: trash invoker crying?
+807: we need to push advantage
+808: bot stop push
+809: bs farmed
+810: report sej for flame and offensive
+811: Lol thius retard
+812: why u speak u suck kassa go play with bot big noob u have kassa look ur score
+813: and against that team
+814: LUNA WAT THE FUCK U DOING
+815: im fuckin noob i ss clicked
+816: and fucking
+817: every 1 have bad game
+818: we push 24/7
+819: trolling hard xd
+820: trash talk more you mongoloid dog
+821: ARE YOU RETARDE?D?D?D???!?!?!?!?
+822: tb shit
+823: no prob =)
+824: bg ez team
+825: 5k never know
+826: soo feed
+827: fucking 3k tryhards LUL
+828: so pro taking others lane
+829: i spam terran
+830: idiot on mid
+831: ez hero
+832: a de baza?
+833: fu trash fukcign shit noob mid ta
+834: good finish kill
+835: this is akward
+836: It's so frustraint
+837: got my ult up i go top
+838: eR up soon
+839: only if you report magnus
+840: i mean go disconnect
+841: you are lucky I don't have my kaya
+842: i gave all my abilities for vi , and she flame us again :(
+843: ok report pudge pls
+844: rumble if you lose the top i report you
+845: is very shit
+846: EZ ASSIST
+847: report lee and ez plz
+848: atleast have the tower
+849: who asked u 2 follow
+850: COUNTER AM?
+851: DON?T FORGET
+852: kassadin forgot a potion -.-
+853: cuz u fool
+854: sp fucking mad
+855: fck roamer noob
+856: 2 flashes gone
+857: wtf jinx?
+858: feeding a leona
+859: also weird because we cant move him
+860: means they are at cybercafe
+861: maybe ss
+862: not sooo
+863: dont QQ i was 98lp near platin promo
+864: you see toxic report pleasse
+865: I just wanna
+866: ALL ARE BASTARD I DONT CONFUTION
+867: suck a cock?
+868: would you mind egagin*'
+869: and u hep her
+870: ok kha ks
+871: better champs won
+872: let me get wave
+873: report this faggot fiora
+874: trash huskar can only talk
+875: fucking african dog
+876: you know what it is bitch
+877: u not play like silver
+878: get a sigh thingy
+879: CAN T DO NOTHING FOR LIKE 10 SEC
+880: what a fucking full of shit drow
+881: also he is died!
+882: how many games?
+883: it's my fault u guys face check? i cant ward --- bushes
+884: look at your carry
+885: hes a ganker
+886: you did itü
+887: stfu and get carried son
+888: oki loser
+889: maybe farm more instead of typing eh
+890: ez mid <3
+891: typing
+892: next time \ Как 2 пальца
+893: picks AM counter yet can't rupture the AM
+894: i feed 5 also u mad
+895: thats what u called
+896: report vs
+897: je te taquine ^^
+898: fck this j4
+899: HEROES ARE HERE
+900: go to hell with your babysit cho

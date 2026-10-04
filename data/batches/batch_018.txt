@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+1701: we cant fight for baron
+1702: lvl 12 blood
+1703: to gank lol
+1704: eat me retard
+1705: shit game end
+1706: si ya ganaron c tmr
+1707: this ss mid
+1708: han er jo fuckt up
+1709: boom bitch
+1710: i'll leave yo to push
+1711: there support is a higher level than us
+1712: 7-7 7 min
+1713: report cait please
+1714: gg sven jungle
+1715: now that all of you lil shits are muted
+1716: why u shut up?
+1717: CAUSE YOU ALWAYS HELP
+1718: can u group pls¿?
+1719: can u feed mid
+1720: pot is ban in the state and legalize in canada!
+1721: xin watch top plz
+1722: cuz i telll you to stop doing that?
+1723: i mute chat sorry
+1724: We got rosh... we coulve killed all 3 of you
+1725: report this fucking nigger
+1726: 2cs1 mid
+1727: he no have armor yet
+1728: why the fuck you didnt go back when i told you ?
+1729: my mana barrier is ---
+1730: lux you can go ap supp?
+1731: i couldn't do anything
+1732: ss mundo op
+1733: graves get
+1734: and easy baron
+1735: well renek
+1736: joke ...
+1737: why are u talking
+1738: contra um mid desses até minha mãe
+1739: ?can i take that farm
+1740: report naut
+1741: and presure other lanes
+1742: 2nd time ! chrono !
+1743: ez you must be behind me or zac
+1744: shit , i play pudge the most aaand i know how it feels like
+1745: another team of fuckign morons who cant even follow the recomended items
+1746: ashe renek wtf
+1747: bot 0
+1748: matenme es gg con esta gente
+1749: omg this kata so fed
+1750: no dead
+1751: imma land on your moms
+1752: this aatrox basically afk top
+1753: u didnt paused
+1754: hows the inflation going buddy?
+1755: but u arent pro so u lose
+1756: only flamed and then went afk
+1757: and u see
+1758: they are pushing to our bone
+1759: thanks for what?
+1760: FUCK YOU SF
+1761: op blitz !!
+1762: fuckin man you threes say much
+1763: mas*
+1764: aatrox so op passive
+1765: too many reports?
+1766: lb is not a noob champ
+1767: dat fcking trap
+1768: you walked another way
+1769: de dc
+1770: I mean, valve mm is so fucked. I play a party game, where I either win: then the enemy team complains about mm. Or I lose: and
+1771: report corki for flame
+1772: teemo afk --'
+1773: kat can go mid no problem
+1774: bane vc tem q usar skill dps de ult
+1775: riot servers sucks
+1776: dat focus zac
+1777: bot play more def
+1778: guys why am i stable 200 ms?
+1779: ez sven noob
+1780: you fucking nerd
+1781: blind fucks
+1782: im good?
+1783: i think you should just farm
+1784: small*
+1785: if you think i wanted this
+1786: ¨waw evelynn noobs
+1787: puck dont have bb
+1788: shit i forgot his ult
+1789: hate this.. :(
+1790: if u rly do it always
+1791: janna u fucked up the game
+1792: then afk
+1793: your support not an assasin so stop take turrets solo
+1794: Ride that dick
+1795: this fuckin game
+1796: i cant do a shit
+1797: jajajaja xd
+1798: fck you i wait 2minutes and lose mid life
+1799: i have to help bot
+1800: find match ka ulit ja?

@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+1301: ziggs is here
+1302: and a happy new year to everyone except OD
+1303: hey lux
+1304: EZ LA
+1305: bot in a sec
+1306: who gives a fuck about you, shithead?>
+1307: said so many times
+1308: que me dara mas cariño
+1309: he aint coming back boys...
+1310: i got troll
+1311: ok go play tetris next time
+1312: fuck u pl
+1313: i will deport you and rape your mother
+1314: assist pls
+1315: that was close :/
+1316: shava u suck
+1317: wants to steal my red at beginning
+1318: if your team sell your item?
+1319: just fucking die plesae
+1320: ty extra gold boy
+1321: didnt shot a singkle shot hahah
+1322: i told u no she nbut u died like a noob
+1323: report bara pls
+1324: USE ROT AFTER HOOK YOU SHIT
+1325: just sad solo q
+1326: with this team yes
+1327: GANK BEFORE THEY WARD
+1328: gg trynd
+1329: move as a fucking team
+1330: THere never going to that hard camp stop mineing it techies
+1331: tresh so noob
+1332: report varus..
+1333: kata come bot and no go mid
+1334: now i will not go with u
+1335: go more tryhard
+1336: waiting.
+1337: something went wrong
+1338: so u missed
+1339: dumb fuck
+1340: NO DUDE OMG RIVEZN LET PRO CHO
+1341: he said please
+1342: yes, do that, i don't care for your report :D
+1343: you have 1 skill with 2 secs cooldown
+1344: thats how to lose because of noobs
+1345: but i play ap
+1346: its anyay gone
+1347: if you report him i'll commend you
+1348: ty for report sky
+1349: come mid after red
+1350: too greedy leona x)
+1351: kids?
+1352: last pick axe and naix
+1353: please report BB guys
+1354: report alche plz
+1355: nida silver what?
+1356: or first time fucking LoL?
+1357: hahaha idiot
+1358: da et ez
+1359: lee come back :P
+1360: me shop
+1361: u underestimate my power
+1362: i left i
+1363: come top teemo
+1364: and no for pvp
+1365: i main teemo top
+1366: at 20 surr and report yi please
+1367: AND GOING FOR MJOLNIR
+1368: ur bad as well stop thinking you are amazing
+1369: its sad how bad pe
+1370: 0 wards again
+1371: you cant kill me noob slarder
+1372: jsut for fan
+1373: fuck u storm, stay in fight :(
+1374: you tusk asking
+1375: so u wanna win this solo ?
+1376: tendra k estar la sivir de mia hasta los cojone.s
+1377: tinker so ez
+1378: stop feed...
+1379: I like how Twitch talk about pick order when top was picked before hgim
+1380: pac k you
+1381: stop trying to gank
+1382: holy fucking autism
+1383: report teemo pls ty :)
+1384: i give up now
+1385: thats --- gold so stfu
+1386: french premade
+1387: want me to thank you amumu?
+1388: u are a idiot
+1389: i had blue 2 times
+1390: but this pudge is useless
+1391: u will suck my balls with him or without
+1392: it's ok we wait
+1393: how does it feel to suck ass
+1394: report sin llorar ok ?
+1395: shen u fuccking faggot
+1396: Troll tower
+1397: i swear it's your dick.
+1398: cait top lol
+1399: or you suck?
+1400: i like woman with dick

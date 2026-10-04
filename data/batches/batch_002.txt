@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+101: THIS RIVEN FUUCKING LUCKER
+102: lol die deutsche sivir hat die syncro von carry
+103: where did you go chace??
+104: fuck helping >.<
+105: this russian asshole razor gg
+106: you r fucking poisonous mongoloid
+107: help me man
+108: AND KICK
+109: report idiot necro
+110: i hate magic
+111: fucken lvl 16 after 44min?
+112: ult after 2 hours
+113: we win kotl got agh
+114: i dare u motherfucker
+115: yeah, no. wasn't in your last game
+116: I can't be bothered.
+117: lovely fucking ulti with baloons
+118: why we do not fkcing win already
+119: go throne pls
+120: omfg rengar u retarded fagg
+121: dont fucking troll me
+122: leave him hes just too busy sucking lavar balls dick
+123: He has no stuff
+124: ez off too
+125: its seriously ridiculous that we are that far behind bot cause of 2 4man ganks
+126: im gona kill u all
+127: no use to go aegis vs full ad
+128: all report sk
+129: we late game
+130: report alch and mute
+131: #cant rly stop shen
+132: which is no in binary
+133: or feed
+134: [g[f[ff[f[f[f[f[
+135: fuck :P
+136: esta mierda
+137: j4 just backed
+138: #bot lost now
+139: ez? the softnes within you
+140: then go back
+141: ohh fck guardian
+142: I semi-negative white kid
+143: FU UR MOM
+144: how to buyback and dieback in 5 seconds
+145: just a lil
+146: pussy pudge raped u early, but couldnt go on cause of girlfriend net to me
+147: tell pduge to go fuck his mamka
+148: i think they did
+149: i love how u got cought
+150: im on fire
+151: you must be little bitch
+152: you do actully nothing you fat bastard
+153: they're dumb
+154: he could go top - he didn't
+155: AND A FUCKING MID
+156: nao a matei
+157: w8 what how u see me
+158: right^^
+159: you must really suck
+160: best player on your team
+161: please report vayne 4 flame
+162: look this sf
+163: gg report me team -.-
+164: these emotes are bigger in the fucking menu
+165: See? report him pls
+166: zed go top finaly
+167: VOLI TANK PLEASE
+168: but what can i do
+169: w8 kids
+170: callate animañl me da igual este game
+171: max stun huh
+172: report poppy pls
+173: retard ashe is faggot why she plays if she knows she have bad connection
+174: dead boys
+175: nice tank
+176: you sound like a whiny bitch
+177: i jungler
+178: but i know he is mad
+179: why you dont come .
+180: dat garen tho
+181: AFTER WE TALK
+182: top seem fine
+183: REPORTED HIM
+184: k shouldnt have done that
+185: Literally the worst slark i've ever seen lmao
+186: pls repot pa
+187: agora [e gg
+188: BUY BITCHES :V
+189: you report me right
+190: retarded as hell
+191: and ez feed now
+192: need cd
+193: throwing ...
+194: kicked my computer too hard
+195: i'll report yo white ass
+196: report for wasting 90 minutes
+197: me or fizz
+198: because you believe as god
+199: bot can you cover red?
+200: GET THE FUCK OFF MAN?

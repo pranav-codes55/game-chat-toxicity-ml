@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+2401: as fucking hell
+2402: care with rengar
+2403: kunnka 18 out retard 14 on mid
+2404: its not ranked
+2405: come ck
+2406: STOP SOLO FFS
+2407: we have not lost
+2408: what a shit show
+2409: he say he dont care
+2410: i can't engage wiht ulty
+2411: dude this darkseer is actually pretty farmed
+2412: wo ist mein team
+2413: you really low
+2414: ez top XDXDXDXDXDXD
+2415: bodyblock me now bitch
+2416: still so worth
+2417: Es muy malo
+2418: theyre going baron
+2419: lol didnt i help yiu?
+2420: youre cs?
+2421: yea watch score
+2422: FUCKKING BOT LANER
+2423: pick es feel pro
+2424: ignite 10
+2425: yu suck
+2426: leona shut ur mouth u kid
+2427: they slow me -.-
+2428: smite up
+2429: report this fucker
+2430: and cry for your loose
+2431: and i got the w and r
+2432: nice ks noc
+2433: i fuck what you want
+2434: shut up nomads
+2435: lucian,..
+2436: stop talking viper
+2437: i fucked a girl yesterday night
+2438: Why does he go afk after 1 kill?
+2439: please my tea mis so retard
+2440: IDIOTS}
+2441: idiot ... the turret
+2442: help mid noob!
+2443: best nyx ever
+2444: aftere I picked it
+2445: no hes op
+2446: pls guys feed more
+2447: gang him
+2448: I give u sentry
+2449: kk ww
+2450: my wr its
+2451: yrah i am so noob....
+2452: yup nid is a fuckgin spaz
+2453: 4vs4
+2454: SS BOT ??.??
+2455: when you have mana and no cd, yes.
+2456: we d have 2 kills
+2457: yes i know that u are an retard kha
+2458: dat nida to dumb
+2459: free inhibi turret
+2460: i was mid how culs i help idiot
+2461: never seen such retards
+2462: and failing
+2463: we got cancer pignoy
+2464: not for an fuck suipp
+2465: medium bot on tinker xD
+2466: report her and ff
+2467: they fucking steal my red
+2468: ez lol okay
+2469: he's not, stop flaming retard.
+2470: give him
+2471: i ez hard :))
+2472: guys im playing on controller
+2473: kill for her 0 for me
+2474: teemo, could you help me pls?
+2475: rengar i believ in your ganks
+2476: GЭLЭ
+2477: 41 min de jogo com furion
+2478: took like half the fight
+2479: my main is heraldo 5
+2480: j4 u aegis or me?
+2481: DONT YOU UNDERSTAND
+2482: your so fed
+2483: get some dmg mundo
+2484: ya no
+2485: and report void
+2486: lost manners ftw =/
+2487: u just can't pla
+2488: warded tribush bot?
+2489: I have an nvme ssd
+2490: so rly?
+2491: Graves stay bot all mid and graves said need togheser idiots
+2492: cait no hp
+2493: better take top and jungle
+2494: i'll keeping feeding there
+2495: da zaebali nah
+2496: dont fuck with my gems
+2497: im so prm for u retard$
+2498: players like blood in ancient 3
+2499: tht darius
+2500: dam dam daaaam

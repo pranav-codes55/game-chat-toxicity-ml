@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+2701: literally been over 15 mins since hes been gone
+2702: worth focusing ali
+2703: STUPID!
+2704: dance battle mid
+2705: you know what a ward is ?
+2706: friend of urs?
+2707: kid cant even last hit
+2708: really ??
+2709: report am shit support
+2710: +4 mmr
+2711: Idiot ammu D
+2712: report him so you dont get him next
+2713: noob jung
+2714: nasus did you stole that armor from garen?
+2715: sry no red
+2716: por una runa muere :V
+2717: thats not how you invade
+2718: fucking no boots still 3x faster cause fuck logic
+2719: now its shit
+2720: but you suck as well
+2721: report nunu only answer
+2722: stop bein noob
+2723: not ali
+2724: ez ward.com
+2725: remember to report cunt cm after game
+2726: just imagine u didnt read that
+2727: i don't see their troller
+2728: tu miki skype
+2729: i was already almost back
+2730: tiwtch ur build ?
+2731: this pugna so ez
+2732: you are report ed
+2733: yeah we cant keep up j ust tryign to get stupid kills and farming
+2734: parabens pro bb
+2735: take mid at least
+2736: your internet sux
+2737: if talk about
+2738: game of carry
+2739: no tengo team
+2740: nice feeding for graves!
+2741: shut up retarded troler
+2742: holy motherfucker
+2743: vamos la
+2744: your logic is dumbassed learn to grab
+2745: np 2 month no play lol jaja fuckk lol
+2746: nice change
+2747: Ez .
+2748: 2ez
+2749: u got ur free blow job dude
+2750: for stupide attitude
+2751: not ez game
+2752: storm you earned my report
+2753: "retarded kennen"
+2754: FUCKING NP
+2755: but u are the only one with exhaust to i just asumed u were support
+2756: this retard timber would be crying right now
+2757: time to see this archon slakr
+2758: Cait forget him
+2759: report plis caca d tinker
+2760: I've gotta go out now
+2761: stop dat offensive language pls
+2762: and farm carry
+2763: can u say me why you took now that red?
+2764: ever 3 together
+2765: SNNIPER SUPER NOOB
+2766: boboses pa e
+2767: What about doing things?
+2768: FIDDLE GO AFK
+2769: the game lost from bara
+2770: best thing is to ignore
+2771: right ez
+2772: yi leblanc is in the bush
+2773: need one in tf
+2774: i'm not a feeder
+2775: wtf is this server
+2776: nasus free kill bot again
+2777: So yeah lucky for u
+2778: FUCKING SONA
+2779: i report you olaf
+2780: za t32
+2781: omg this stupid team
+2782: Taking experience your carry player :(
+2783: my fault i think
+2784: yup im reporting him
+2785: tihs team trash is issue
+2786: see ya on ban
+2787: soo ez omg
+2788: our mid pro
+2789: EZ 1vs1
+2790: yep, insane ashe/janna
+2791: why beby rage
+2792: report nida plz
+2793: wake da fuk up
+2794: Con tatna mierda
+2795: top noob ;D
+2796: Supreme Shadow Shaman, may I please have our gem back?
+2797: bigest noob of te world
+2798: gj with your champion win but this game isnt yours
+2799: it doesn't make her better if you say she is bad
+2800: Now im really fucked

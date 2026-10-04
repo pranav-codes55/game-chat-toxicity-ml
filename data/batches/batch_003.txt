@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+201: could have killed her though
+202: i wan report my self
+203: learn english hahahaha
+204: gg wp. report annie for trashtalking, rage
+205: stfu nami
+206: ancient alot wanna be
+207: its teamplay
+208: you will help me
+209: and report cm
+210: Gota love thse s games
+211: cancer a los ojos
+212: trash dk xD
+213: DID YOU WANT TO DIE?
+214: explain why?
+215: yes stay
+216: u should commit suicide
+217: get mid inhib
+218: sad indian internet
+219: no sabes farmear ez
+220: just go..
+221: lesh do you realize how useless you are
+222: omg i cant play idiot
+223: just get fucking throne
+224: nice ss hack:D
+225: being a dickhead
+226: good for us, since the PA is shit
+227: u get 2 supps
+228: i need it :D
+229: fuck that champ
+230: stfu yi thx
+231: no gank no one fucck
+232: WHY ME ?? I'M JUST A POOR OGRE
+233: its s stupid tinker
+234: and get every single shots from ez LoL
+235: damn my farm suck
+236: u fuking noob
+237: report anie
+238: u fuckin dumb shut up and come back
+239: what can i do vs 2 giants ..
+240: fuck me man
+241: we have one noob too
+242: go afk we report
+243: FUCKING RETARD MID
+244: rengar is about to hit 6
+245: just usless
+246: and he can play support because he is last pick idiot
+247: QUE ME TOCO
+248: wait why did u guys fall apoart
+249: u fucked me ramsi
+250: go end got 4 idiots in team
+251: cagada mia por una puta vida
+252: THIS TEAM IS WORTHLESS
+253: jesus jarvan
+254: report yasuo for unskiled lvl ---
+255: doesnt really matter
+256: easiest void i ve ver see
+257: this cait is a intentional troll
+258: one for each foot
+259: cause retarded people do not diserve a chance
+260: report that cait
+261: maybe balalikca will help us
+262: adc and sup can help you better
+263: we was out of position
+264: didnt u said PL raged quit
+265: wow no rampage
+266: sie hat ihr ulti für 50 leben von mir benutzt xD
+267: veigar ur ap?
+268: yasuo ss
+269: omd this ffucking bad adc
+270: to its best
+271: lets get these suckers janna
+272: shop than i go bot
+273: Now you want to 1 on1
+274: play safe ez
+275: mid 1/11
+276: otherwise you are buillshitting
+277: you died 15times they do 5ults on me why r u so retarded
+278: rengar very noob ..
+279: ? i got a kill ni 2v1 so yeah kennen is the bad one here :L
+280: you'll be an ez kill
+281: u stupid?
+282: lets report all
+283: so i go afk
+284: first time zed :D
+285: i went from 1-3
+286: MORON
+287: guys plz stop using dial up, we are in 2018
+288: but I still have flash
+289: all is feed now
+290: ga weg dan...
+291: full retard idiot
+292: no you don't help
+293: but dw if others are important
+294: i raped ur ass jugg
+295: scary on losing sir ?
+296: fuck this abba dog
+297: xD twitch
+298: focus on not doing stupid shit
+299: holy fck that vayne hurts so much
+300: gl hf and merry christmas

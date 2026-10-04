@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+1601: yi low hp
+1602: i wont fight him
+1603: more ward will be cool
+1604: thats bad
+1605: report magnus win a cookie
+1606: missing even a minute is fucking massive
+1607: now we can try bait or push top
+1608: REPORT U FEEDER NOOB SAY ---% WIN TOP U IDIOT
+1609: 5 man mid please
+1610: GG WP report sven
+1611: 4k is rela
+1612: idiot triple
+1613: 2x ja
+1614: fucking pussy salrk
+1615: please report invoker
+1616: with fucking shit rocket
+1617: noc is pervert
+1618: cassio fucking top
+1619: remember to use sunder
+1620: all my detahs becosu eof u fuckking mid laner
+1621: get the fuck out sivir, go away
+1622: if you liked it then you shoulda put a ring on it
+1623: todo por mi team
+1624: stfu incest kid
+1625: their comp is just poke and we got no jugnler even we are pushed
+1626: respect mid 1v1
+1627: we have jungler
+1628: its fucking silly
+1629: your blind counters vayne ad
+1630: so mucgh minions u.u
+1631: I'm used to
+1632: tem como joga com esse time n
+1633: da on pohodu s koncami
+1634: nice fair play naab
+1635: u push mid
+1636: i dont see harrasing, and also no feeding
+1637: nida lvl 13
+1638: ENJOY DOTO WITH THIS NOOB FEEDER
+1639: "your big mouth" haha
+1640: i hope you die from cancer huskar
+1641: its normals man ;)
+1642: and i love it <3
+1643: coz u stupid
+1644: im not in it :(
+1645: weve got this easy
+1646: GET BACK
+1647: go play just teris pls
+1648: what ydo you fucking want
+1649: reported x3
+1650: techies vs am
+1651: 4ok
+1652: pls dont spoil :D
+1653: insult so report
+1654: huahuahuahuahuahauh your mom
+1655: enjoy freew in
+1656: by not going
+1657: i dont talked to you
+1658: if i play with brainless naps
+1659: i cant plsy more with this animals
+1660: vi go fatm
+1661: because ori pinged ss mid
+1662: also that mirana pls
+1663: reported in dota and steam
+1664: what a cunt.
+1665: fuck i take my Q
+1666: shaco 0 ganks in bot
+1667: and we're losing to shit like you
+1668: fuck off bs
+1669: fuck im owning
+1670: gg gl next
+1671: bah non j'fais face
+1672: i call for surrender but akali and catlyn dont wanth to do that...so kill us free
+1673: pretty hard so shut ur fucking mouth
+1674: wee can baron
+1675: and i write
+1676: jajaja q team (y)
+1677: a bit hard 4v5
+1678: anyways i got dia this season can´t carry everyone
+1679: HAHAH EZ SF
+1680: yeah u are just a big minion that al
+1681: of course it was 2v1 mid
+1682: u just bitch when u let him die
+1683: noob irelia
+1684: sry no ulti rdy
+1685: PA NOOOB FUCK NO HELP REPORT
+1686: trade game with medusa
+1687: WHERE WERE U!?!
+1688: Vi shut up they dived me
+1689: fuck out of mid
+1690: u culd have tanked leona :(
+1691: Com on!
+1692: nice mango :D
+1693: vais ver moço
+1694: fucking party
+1695: jinx and nidale. write Die niggah every time we go fight and their didnt help us
+1696: can u end
+1697: little kid pudge playing free
+1698: ur mom is fucking slut
+1699: fuck u enchatress
+1700: o con tus muertos

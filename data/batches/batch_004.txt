@@ -1,0 +1,126 @@
+You are helping label in-game chat messages (Dota 2 and League of Legends) for a university machine-learning project.
+Label EACH message on its own (you cannot see the rest of the conversation) with exactly ONE code:
+
+0 = NEUTRAL / POSITIVE: normal game talk, tactics, questions, jokes, thanks, praise, "gg", "gl hf", "ty", apologies, friendly banter, and exclamations that are not aimed at anyone ("holy shit", "wow").
+1 = NEGATIVE ATTITUDE: complaining, blaming, sarcasm, mocking someone's skill or play, passive-aggressive remarks, giving up ("this game is lost"), mild insults such as "noob", "trash", "useless", "feeder", demanding reports ("report him"), taunts like "ez", condescending remarks. NO slurs and no strong personal abuse.
+2 = DEROGATORY: strong insults aimed at a person or group: slurs (racist, sexist, homophobic, ableist), "retard", "cunt", "faggot", sexual or family insults, wishing harm or death ("kys", "i hope you die"), threats, heavy profanity aimed at someone ("fuck you", "shut the fuck up").
+X = SKIP: not English, unreadable, random keys or a single symbol, or you truly cannot tell.
+
+Examples:
+report for unskilled player is useless -> 1
+ggwp -> 0
+such a feeder..xD -> 1
+shut up faggot -> 2
+totally noob team -> 1
+go play barbie like a girl -> 2
+holy shit -> 0
+stupid as last pickin pudge -> 1
+russian cuck -> 2
+thx -> 0
+this game is shit -> 1
+nah -> 0
+xxkqpz -> X
+
+Reply with ONLY one line per message in the form  id,label  (for example  14,0). No explanations, no extra text, no headings.
+
+MESSAGES:
+301: let me show u the wey
+302: il est cho le parigot
+303: if i am dead there is no dmg
+304: you fed liss
+305: please wait :(
+306: yeah but sky was toxic as fuck
+307: PLZ REPORT JUG
+308: if u cnat play the fuckign champs then at least follow the recomended items
+309: most lucky anie
+310: fucked bottom
+311: u fail to troll
+312: j4 come 6 time at 10 min
+313: no doy una
+314: no kill for you :)
+315: you reacted too slow to tp
+316: my time was up idiot
+317: uninstall the game
+318: u won already
+319: not that hard reaching d5 with this system
+320: yasuo you love me
+321: IS EASY FOR YOU
+322: imagine if fucking josh is like they wud never pause this long nad just not comibg b
+323: your the one reason
+324: this fucking blitz
+325: this fucking leona
+326: now he doesnt even deal dmg
+327: 0 FKING GANK
+328: I GOT THIS BITCH
+329: LOL NIDA BACKDOOR
+330: pick more tech
+331: just ignore the rubick
+332: fucking laggs
+333: pro renek
+334: once again slardar somehow saves everyone with the ability to press e
+335: ARROW LUL
+336: Not too bad to kill you alone akali but we want to share the fun of killing you
+337: but if she pokes then we rape
+338: who die lot
+339: fuck she away yasuo
+340: with 7hp
+341: well gj morde in midlane :3
+342: 309 MIN
+343: what does that mean
+344: LEAVE THE NIDA ALONE !
+345: fuckin jungle
+346: xerath with the follows
+347: just mute
+348: FCK LAGS
+349: they are fucking blind
+350: u ne help me u run no cry
+351: moar lock plox
+352: as noob hahahah
+353: of I DID GANK
+354: that all*
+355: full kill
+356: its not a stun
+357: I DONT WANT TO LOSE
+358: IN SAME BUILD
+359: this fucking idiot
+360: CANT EVEN DODGE FUCKING STONE
+361: FUCK YOU LIFE
+362: reported AM
+363: go mid finish
+364: if jax go
+365: zero hp
+366: u are too fat to be Messi
+367: this graves ;D
+368: TINKER how much did you pay to gaben to play against 4 retards in enemy team
+369: fuck help
+370: with retard
+371: u don't have
+372: AND CK
+373: viktor you fucked up
+374: ez gl next
+375: ur flame lost pretty much
+376: Gg wp , report PL , thanks
+377: he is kinda anoying
+378: thats nice of you
+379: reported pls stupid whore alchmm
+380: could you buy noe
+381: come on leona!
+382: no way bro
+383: ok molto op tf
+384: No but seriously you should see Voli in our chat
+385: THE WORST FUCKING COMMUNITY IN THE WORLD
+386: im done suck dick your mom
+387: na ty
+388: oh how ironic xD
+389: REPORT RUBICK PLz
+390: FUCKING REATARDED TEAM OMG SUCH FUCKTARDS CANT GO IN 1 TEAM FIGHT ONCE AS FUCKING 5 PPL OMFG
+391: leona and corki op
+392: ori take all the kills
+393: gg wp]
+394: idiot. brand
+395: im glad its over
+396: a have 3 hero on mid
+397: der lol server
+398: jax obv not diamond l, he cant even fix one kill before crying about it
+399: get out of my base bitches
+400: HE-lo
