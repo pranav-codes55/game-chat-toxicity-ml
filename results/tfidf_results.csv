@@ -1,0 +1,13 @@
+model,family,features,task,accuracy,macro_f1,f1_class0,f1_class1,f1_class2
+Binary SVM (linear kernel),TF-IDF,TF-IDF,binary,0.9217,0.9193,0.9333,0.9052,
+Binary SVM (rbf kernel),TF-IDF,TF-IDF,binary,0.8914,0.8871,0.9091,0.8652,
+Binary SVM (poly kernel),TF-IDF,TF-IDF,binary,0.7879,0.7694,0.8346,0.7042,
+Naive Bayes (165-phrase dictionary),TF-IDF,dictionary counts,3-class,0.8662,0.7075,0.9008,0.8686,0.3529
+Naive Bayes (TF-IDF),TF-IDF,TF-IDF,3-class,0.8308,0.7513,0.8747,0.8014,0.5778
+KNN (K=1),TF-IDF,TF-IDF,3-class,0.6894,0.5846,0.7732,0.562,0.4186
+KNN (K=2),TF-IDF,TF-IDF,3-class,0.6667,0.4965,0.7709,0.433,0.2857
+KNN (K=3),TF-IDF,TF-IDF,3-class,0.6566,0.4938,0.7581,0.4455,0.2778
+KNN (K=6),TF-IDF,TF-IDF,3-class,0.6212,0.3798,0.75,0.2604,0.129
+Random Forest (Gini),TF-IDF,TF-IDF,3-class,0.9015,0.8247,0.9293,0.8936,0.6512
+Random Forest (Entropy),TF-IDF,TF-IDF,3-class,0.899,0.8226,0.9277,0.8889,0.6512
+"Random Forest (Entropy, max depth=32)",TF-IDF,TF-IDF,3-class,0.846,0.7788,0.8884,0.7969,0.6512
