@@ -1,0 +1,18 @@
+{
+  "w2v_50": {
+    "vocab_words_found_pct": 99.6,
+    "word_occurrences_found_pct": 99.9
+  },
+  "w2v_100": {
+    "vocab_words_found_pct": 99.6,
+    "word_occurrences_found_pct": 99.9
+  },
+  "glove_50": {
+    "vocab_words_found_pct": 93.7,
+    "word_occurrences_found_pct": 97.8
+  },
+  "glove_100": {
+    "vocab_words_found_pct": 93.7,
+    "word_occurrences_found_pct": 97.8
+  }
+}
