@@ -1,0 +1,9 @@
+model,family,features,task,accuracy,macro_f1,f1_class0,f1_class1,f1_class2,val_accuracy,epochs
+LSTM (softmax output; word2vec 100-dim),Neural net,word2vec 100-dim,3-class,0.8434,0.7226,0.9011,0.8123,0.4545,0.8044,16
+LSTM (sigmoid output; word2vec 100-dim),Neural net,word2vec 100-dim,3-class,0.8409,0.7124,0.8991,0.8095,0.4286,0.8107,23
+LSTM (softmax output; GloVe 50-dim),Neural net,GloVe 50-dim,3-class,0.8384,0.7123,0.8947,0.8166,0.4255,0.8675,35
+LSTM (softmax output; GloVe 100-dim),Neural net,GloVe 100-dim,3-class,0.8359,0.6831,0.8994,0.8,0.35,0.8738,25
+LSTM (softmax output; word2vec 50-dim),Neural net,word2vec 50-dim,3-class,0.8308,0.6531,0.9015,0.7946,0.2632,0.817,16
+LSTM (sigmoid output; GloVe 100-dim),Neural net,GloVe 100-dim,3-class,0.8283,0.7061,0.886,0.7932,0.439,0.8738,30
+LSTM (sigmoid output; GloVe 50-dim),Neural net,GloVe 50-dim,3-class,0.8232,0.6705,0.8894,0.7889,0.3333,0.8864,31
+LSTM (sigmoid output; word2vec 50-dim),Neural net,word2vec 50-dim,3-class,0.8157,0.6132,0.8913,0.7718,0.1765,0.8202,19

@@ -1,0 +1,1 @@
+{"name": "LSTM (sigmoid output; GloVe 50-dim)", "embedding": "glove_50", "output": "sigmoid"}
