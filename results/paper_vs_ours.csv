@@ -1,0 +1,12 @@
+model,paper accuracy,our accuracy,difference
+Binary SVM (linear),0.9565,0.9217,-0.0348
+Binary SVM (rbf),0.9635,0.8914,-0.0721
+Naive Bayes (TF-IDF),0.9506,0.8308,-0.1198
+KNN K=1,0.9853,0.6894,-0.2959
+KNN K=2,0.9711,0.6667,-0.3044
+KNN K=3,0.9683,0.6566,-0.3117
+KNN K=6,0.8424,0.6212,-0.2212
+Random Forest (Gini),0.9912,0.9015,-0.0897
+Random Forest (Entropy),0.991,0.899,-0.092
+Best feedforward NN,0.9572,0.8182,-0.139
+Best LSTM,0.9586,0.8434,-0.1152
