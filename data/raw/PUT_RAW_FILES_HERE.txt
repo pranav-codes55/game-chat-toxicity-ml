@@ -1,0 +1,6 @@
+Place raw dataset files here (see README.md):
+- chatlogs.xlsx (League of Legends Tribunal chat logs from Kaggle)
+- dota2_chat_messages.xlsx (GOSU.AI Dota 2 game chats from Kaggle)
+
+These files are only needed if re-running notebook 01_data_preparation.ipynb from scratch.
+All processed and labelled data are already provided in data/processed/ and data/labelled/.
