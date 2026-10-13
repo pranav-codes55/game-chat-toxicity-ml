@@ -105,17 +105,17 @@ Work was done in sequence: Pranav built the data and TF-IDF part first, then Div
  
 | Part | Pranav | Divyanshi |
 |---|---|---|
-| Repo setup, README | x | |
-| Data collection, cleaning, sampling | x | |
-| Labelling (rules + AI labelling) | x | |
-| Manual label check (100 messages) | x | |
-| Merge labels, quality check, train/test split | x | |
-| TF-IDF models (SVM, NB, KNN, RF) | x | |
-| word2vec / GloVe embeddings | | x |
-| Feedforward NN | | x |
-| LSTM | | x |
-| Evaluation (metrics, confusion matrices, comparison) | | x |
-| Streamlit demo (demo/app.py) | | x |
+| Repo setup, README | ✔️ | |
+| Data collection, cleaning, sampling | ✔️ | |
+| Labelling (rules + AI labelling) | ✔️ | |
+| Manual label check (100 messages) | ✔️ | |
+| Merge labels, quality check, train/test split | ✔️ | |
+| TF-IDF models (SVM, NB, KNN, RF) | ✔️ | |
+| word2vec / GloVe embeddings | | ✔️ |
+| Feedforward NN | | ✔️ |
+| LSTM | | ✔️ |
+| Evaluation (metrics, confusion matrices, comparison) | | ✔️ |
+| Streamlit demo (demo/app.py) | | ✔️ |
 
  
 ## Reference
