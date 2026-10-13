@@ -46,6 +46,7 @@ notebooks/         01 data prep | 02 labelling+audit+split | 03 TF-IDF models | 
 models/            saved vectorizer / best models / embedding matrices used by the demo
 results/           result tables, predictions, figures, summary
 demo/app.py        Streamlit demo
+One_Page_Writeup.pdf  Two-page project summary write-up (Component B)
 ```
  
 ## Setup
